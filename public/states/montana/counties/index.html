@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8" />
+  <title>Montana State</title>
+</head>
+<body>
+  
+  <h1>Montana State</h1>
+  <p>{{ range .Site.Pages }}
+{{ if eq .Section &ldquo;states&rdquo; }}
+{{ if eq .File.Dir &ldquo;/content/states/montana/counties&rdquo; }}
+<!-- raw HTML omitted --><!-- raw HTML omitted -->{{ .Title }}<!-- raw HTML omitted --><!-- raw HTML omitted -->
+{{ end }}
+{{ end }}
+{{ end }}</p>
+
+
+  <h2>States:</h2>
+  <ul>
+    
+      <li><a href="/states/montana/counties/lewis-and-clark/">Lewis and Clark County</a></li>
+    
+      <li><a href="/states/montana/counties/">Montana State</a></li>
+    
+      <li><a href="/states/">States</a></li>
+    
+  </ul>
+
+</body>
+</html>

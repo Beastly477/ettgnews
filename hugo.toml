@@ -1,0 +1,7 @@
+baseURL      = "https://ettgnews.com/"
+languageCode = "en-us"
+title        = "Ear to the Ground News"
+# theme        = "ettg"
+
+[params]
+  brand = "ETtG News"
