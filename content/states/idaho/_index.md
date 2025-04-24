@@ -1,3 +1,6 @@
 ---
-  title: "Idaho"
+title: "Idaho"
+layout: "state"
+state: "idaho"
 ---
+

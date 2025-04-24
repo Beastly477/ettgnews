@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<ul class="grid gap-4">
+  {{ $state := .Params.state }}
+  {{ $data  := index .Site.Data $state "counties" }}
+
+  {{ range $slug, $info := $data }}
+    <li class="p-4 bg-white rounded shadow">
+      <a href="/states/{{ $state }}/counties/{{ $slug }}/">
+        {{ $info.label }}
+      </a>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

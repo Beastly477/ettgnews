@@ -1,5 +1,37 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+
+  {{/* ROOT: list states */}}
+  {{ if eq .RelPermalink "/" }}
+  <h2>States</h2>
+  <ul>
+    {{ range where .Site.Pages "Section" "states" }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+
+  {{/* STATE PAGE: list counties */}}
+  {{ else if eq .Section "states" }}
+    {{/* derive state slug */}}
+    {{ $state := "" }}
+    {{ if .Params.state }}
+      {{ $state = .Params.state }}
+    {{ else if .File }}
+      {{ $state = .File.BaseFileName }}
+    {{ end }}
+
+    {{ $data     := index .Site.Data $state }}
+    {{ $counties := index $data "counties" }}
+
+    <h2>Counties in {{ .Title }}</h2>
+    <ul>
+      {{ range $slug, $info := $counties }}
+        <li>
+          <a href="/states/{{ $state }}/counties/{{ $slug }}/">
+            {{ $info.label }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
 {{ end }}
 

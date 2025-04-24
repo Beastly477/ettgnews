@@ -1,0 +1,14 @@
+{{ $state  := .Params.state }}
+{{ $slug   := .File.BaseFileName }}
+{{ $county := index (index .Site.Data $state "counties") $slug }}
+
+<h1>{{ $county.label }}</h1>
+
+<ul>
+  {{ range $county.sources }}
+    <li>
+      <strong>{{ .category }}:</strong>
+      <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+    </li>
+  {{ end }}
+</ul>
