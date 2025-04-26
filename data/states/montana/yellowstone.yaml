@@ -1,0 +1,26 @@
+resources:
+  - title: Billings Public Library
+    type: Library
+    address: 510 N Broadway, Billings, MT 59101
+    phone: (406) 657-8258
+    url: https://www.billingslibrary.org/
+  - title: Yellowstone County Sheriff's Office
+    type: Law Enforcement
+    address: 2323 2nd Ave N, Billings, MT 59101
+    phone: (406) 256-2929
+    url: https://www.co.yellowstone.mt.gov/sheriff/
+  - title: Yellowstone County Courthouse
+    type: Government
+    address: 217 N 27th St, Billings, MT 59101
+    phone: (406) 256-2828
+    url: https://www.co.yellowstone.mt.gov/courthouse/
+  - title: Billings Clinic
+    type: Hospital
+    address: 2800 10th Ave N, Billings, MT 59101
+    phone: (406) 238-2500
+    url: https://www.billingsclinic.com/
+  - title: St. Vincent Healthcare
+    type: Hospital
+    address: 1233 N 30th St, Billings, MT 59101
+    phone: (406) 237-7000
+    url: https://www.svh-mt.org/

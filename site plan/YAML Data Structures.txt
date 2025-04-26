@@ -1,0 +1,91 @@
+Data Structure for YAML layout:
+(First draft)
+
+State YAML - 
+---
+title: "" # State name (e.g., Montana)
+description: "" # Short 1–2 sentence description
+capital: "" # Capital city (e.g., Helena)
+population: 0 # Full number, no commas (e.g., 1084225)
+area_sq_mi: 0 # Area in square miles (e.g., 147040)
+tags:
+  - "" # e.g., northern, rural, scenic
+images:
+  header: "" # Path to a nice header/banner image
+created_at: "{{ now.Format "2006-01-02" }}" # auto today if you want
+---
+
+Counties YAML - 
+---
+title: "" # County name (e.g., Yellowstone County)
+state: "" # Parent state (e.g., Montana)
+description: "" # A paragraph or two about the county
+county_seat: "" # Main city (e.g., Billings)
+population: 0 # Population (e.g., 165123)
+area_sq_mi: 0 # Area in square miles
+tags:
+  - "" # e.g., major_city, growing
+images:
+  header: "" # Path to a header image for the county
+created_at: "{{ now.Format "2006-01-02" }}" # today’s date
+---
+
+
+
+
+
+Level	What it would be	Why
+1. data/states.yaml	A master list of the 50 states (short info like name, abbreviation, etc.)	For building the top-level menu
+2. data/states/{state-name}.yaml	Each state has a YAML with all its counties	Keeps it manageable (instead of a huge file)
+3. data/states/{state-name}/{county-name}.yaml	Each county has a YAML file with resources (like contacts, organizations, support centers, events, etc.)	So you can grow or change county resources without touching states
+📚 Example in practice
+1. data/states.yaml
+yaml
+Copy
+Edit
+states:
+  - name: Montana
+    abbr: MT
+  - name: Wyoming
+    abbr: WY
+  - name: Idaho
+    abbr: ID
+  # ... etc
+2. data/states/montana.yaml
+yaml
+Copy
+Edit
+counties:
+  - name: Yellowstone
+    slug: yellowstone
+  - name: Missoula
+    slug: missoula
+  - name: Cascade
+    slug: cascade
+3. data/states/montana/yellowstone.yaml
+yaml
+Copy
+Edit
+resources:
+  - title: "Public Health Department"
+    type: "healthcare"
+    url: "https://yellowstonehealth.org"
+    address: "123 Health St, Billings, MT"
+    phone: "406-123-4567"
+
+  - title: "Yellowstone County Sheriff's Office"
+    type: "law enforcement"
+    url: "https://ycso.gov"
+    address: "123 Justice Rd, Billings, MT"
+    phone: "406-987-6543"
+🎯 Why this structure is smart:
+You can template it cleanly — .Site.Data.states.montana.counties loops easily.
+
+You can load resources dynamically — Hugo can getJSON or readDir into the folder.
+
+Adding new states/counties is just dropping a small YAML, not editing giant files.
+
+No duplication — you don't store "Montana" everywhere inside the county files; you already know which state you're in based on the directory.
+
+🧠 Brain upgrade: Even better later
+If you ever want to make it easier even further, you could generate the YAML files automatically (some Python script if you had thousands of counties/resources). But for now, hand-writing them is 100% fine and clean.

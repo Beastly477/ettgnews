@@ -1,0 +1,113 @@
+counties:
+  - name: Lewis and Clark County
+    slug: lewis_and_clark
+  - name: Gallatin
+    slug: gallatin
+  - name: Ravalli County
+    slug: ravalli
+  - name: Missoula County
+    slug: missoula
+  - name: Flathead County
+    slug: flathead
+  - name: Yellowstone County
+    slug: yellowstone
+  - name: Cascade County
+    slug: cascade
+  - name: Silver Bow County
+    slug: silver_bow
+  - name: Lincoln County
+    slug: lincoln
+  - name: Lake County
+    slug: lake
+  - name: Teton County
+    slug: teton
+  - name: Pondera County
+    slug: pondera
+  - name: Sanders County
+    slug: sanders
+  - name: Mineral County
+    slug: mineral
+  - name: Madison County
+    slug: madison
+  - name: Jefferson County
+    slug: jefferson
+  - name: Park County
+    slug: park
+  - name: Sweet Grass County
+    slug: sweet_grass
+  - name: Carbon County
+    slug: carbon
+  - name: Stillwater County
+    slug: stillwater
+  - name: Golden Valley County
+    slug: golden_valley
+  - name: Wheatland County
+    slug: wheatland
+  - name: Musselshell County
+    slug: musselshell
+  - name: Petroleum County
+    slug: petroleum
+  - name: Garfield County
+    slug: garfield
+  - name: Rosebud County
+    slug: rosebud
+  - name: Treasure County
+    slug: treasure
+  - name: Custer County
+    slug: custer
+  - name: Powder River County
+    slug: powder_river
+  - name: Fallon County
+    slug: fallon
+  - name: Carter County
+    slug: carter
+  - name: Big Horn County
+    slug: big_horn
+  - name: Beaverhead County
+    slug: beaverhead
+  - name: Blaine County
+    slug: blaine
+  - name: Broadwater County
+    slug: broadwater
+  - name: Chouteau County
+    slug: chouteau
+  - name: Daniels County
+    slug: daniels
+  - name: Dawson County
+    slug: dawson
+  - name: Deer Lodge County
+    slug: deer_lodge
+  - name: Fergus County
+    slug: fergus
+  - name: Glacier County
+    slug: glacier
+  - name: Granite County
+    slug: granite
+  - name: Hill County
+    slug: hill
+  - name: Judith Basin County
+    slug: judith_basin
+  - name: Liberty County
+    slug: liberty
+  - name: McCone County
+    slug: mccone
+  - name: Meagher County
+    slug: meagher
+  - name: Phillips County
+    slug: phillips
+  - name: Powell County
+    slug: powell
+  - name: Prairie County
+    slug: prairie
+  - name: Richland County
+    slug: richland
+  - name: Roosevelt County
+    slug: roosevelt
+  - name: Sheridan County
+    slug: sheridan
+  - name: Toole County
+    slug: toole
+  - name: Valley County
+    slug: valley
+  - name: Wibaux County
+    slug: wibaux

@@ -1,0 +1,351 @@
+states:
+    - name: "Alabama"
+      slug: "alabama"
+      abbreviation: "AL"
+      capital: "Montgomery"
+      largest_city: "Birmingham"
+      population: 5024279
+      area: 52420
+    - name: "Alaska"
+      slug: "alaska"
+      abbreviation: "AK"
+      capital: "Juneau"
+      largest_city: "Anchorage"
+      population: 733391
+      area: 663300
+    - name: "Arizona"
+      slug: "arizona"
+      abbreviation: "AZ"
+      capital: "Phoenix"
+      largest_city: "Phoenix"
+      population: 7151502
+      area: 113990
+    - name: "Arkansas"
+      slug: "arkansas"
+      abbreviation: "AR"
+      capital: "Little Rock"
+      largest_city: "Little Rock"
+      population: 3017804
+      area: 53179
+    - name: "California"
+      slug: "california"
+      abbreviation: "CA"
+      capital: "Sacramento"
+      largest_city: "Los Angeles"
+      population: 39538223
+      area: 163696
+    - name: "Colorado"
+      slug: "colorado"
+      abbreviation: "CO"
+      capital: "Denver"
+      largest_city: "Denver"
+      population: 5773714
+      area: 104094
+    - name: "Connecticut"
+      slug: "connecticut"
+      abbreviation: "CT"
+      capital: "Hartford"
+      largest_city: "Bridgeport"
+      population: 3605944
+      area: 5543
+    - name: "Delaware"
+      slug: "delaware"
+      abbreviation: "DE"
+      capital: "Dover"
+      largest_city: "Wilmington"
+      population: 989948
+      area: 1984
+    - name: "Florida"
+      slug: "florida"
+      abbreviation: "FL"
+      capital: "Tallahassee"
+      largest_city: "Jacksonville"
+      population: 21538187
+      area: 65758
+    - name: "Georgia"
+      slug: "georgia"
+      abbreviation: "GA"
+      capital: "Atlanta"
+      largest_city: "Atlanta"
+      population: 10711908
+      area: 59425
+    - name: "Hawaii"
+      slug: "hawaii"
+      abbreviation: "HI"
+      capital: "Honolulu"
+      largest_city: "Honolulu"
+      population: 1455271
+      area: 10932
+    - name: "Idaho"
+      slug: "idaho"
+      abbreviation: "ID"
+      capital: "Boise"
+      largest_city: "Boise"
+      population: 1839106
+      area: 83569
+    - name: "Illinois"
+      slug: "illinois"
+      abbreviation: "IL"
+      capital: "Springfield"
+      largest_city: "Chicago"
+      population: 12812508
+      area: 57914
+    - name: "Indiana"
+      slug: "indiana"
+      abbreviation: "IN"
+      capital: "Indianapolis"
+      largest_city: "Indianapolis"
+      population: 6785528
+      area: 36420
+    - name: "Iowa"
+      slug: "iowa"
+      abbreviation: "IA"
+      capital: "Des Moines"
+      largest_city: "Des Moines"
+      population: 3190369
+      area: 56273
+    - name: "Kansas"
+      slug: "kansas"
+      abbreviation: "KS"
+      capital: "Topeka"
+      largest_city: "Wichita"
+      population: 2915958
+      area: 82278
+    - name: "Kentucky"
+      slug: "kentucky"
+      abbreviation: "KY"
+      capital: "Frankfort"
+      largest_city: "Louisville"
+      population: 4505836
+      area: 40408
+    - name: "Louisiana"
+      slug: "louisiana"
+      abbreviation: "LA"
+      capital: "Baton Rouge"
+      largest_city: "New Orleans"
+      population: 4657757
+      area: 52378
+    - name: "Maine"
+      slug: "maine"
+      abbreviation: "ME"
+      capital: "Augusta"
+      largest_city: "Portland"
+      population: 1362359
+      area: 35380
+    - name: "Maryland"
+      slug: "maryland"
+      abbreviation: "MD"
+      capital: "Annapolis"
+      largest_city: "Baltimore"
+      population: 6177224
+      area: 12406
+    - name: "Massachusetts"
+      slug: "massachusetts"
+      abbreviation: "MA"
+      capital: "Boston"
+      largest_city: "Boston"
+      population: 7029917
+      area: 10554
+    - name: "Michigan"
+      slug: "michigan"
+      abbreviation: "MI"
+      capital: "Lansing"
+      largest_city: "Detroit"
+      population: 10077331
+      area: 96714
+    - name: "Minnesota" 
+      slug: "minnesota"
+      abbreviation: "MN"
+      capital: "Saint Paul"
+      largest_city: "Minneapolis"
+      population: 5706494
+      area: 86936
+    - name: "Mississippi"
+      slug: "mississippi"
+      abbreviation: "MS"
+      capital: "Jackson"
+      largest_city: "Jackson"
+      population: 2961279
+      area: 48432
+    - name: "Missouri"
+      slug: "missouri"
+      abbreviation: "MO"
+      capital: "Jefferson City"
+      largest_city: "Kansas City"
+      population: 6154913
+      area: 69707
+    - name: "Montana"
+      slug: "montana"
+      abbreviation: "MT"
+      capital: "Helena"
+      largest_city: "Billings"
+      population: 1084225
+      area: 147040
+    - name: "Nebraska"
+      slug: "nebraska"
+      abbreviation: "NE"
+      capital: "Lincoln"
+      largest_city: "Omaha"
+      population: 1961504
+      area: 77348
+    - name: "Nevada"
+      slug: "nevada"
+      abbreviation: "NV"
+      capital: "Carson City"
+      largest_city: "Las Vegas"
+      population: 3104614
+      area: 110572
+    - name: "New Hampshire"
+      slug: "new-hampshire"
+      abbreviation: "NH"
+      capital: "Concord"
+      largest_city: "Manchester"
+      population: 1377529
+      area: 9349
+    - name: "New Jersey"
+      slug: "new-jersey"
+      abbreviation: "NJ"
+      capital: "Trenton"
+      largest_city: "Newark"
+      population: 9288994
+      area: 8723
+    - name: "New Mexico"
+      slug: "new-mexico"
+      abbreviation: "NM"
+      capital: "Santa Fe"
+      largest_city: "Albuquerque"
+      population: 2117522
+      area: 121590
+    - name: "New York"
+      slug: "new-york"
+      abbreviation: "NY"
+      capital: "Albany"
+      largest_city: "New York City"
+      population: 20201249
+      area: 54555
+    - name: "North Carolina"
+      slug: "north-carolina"
+      abbreviation: "NC"
+      capital: "Raleigh"
+      largest_city: "Charlotte"
+      population: 10439388
+      area: 53819
+    - name: "North Dakota"  
+      slug: "north-dakota"
+      abbreviation: "ND"
+      capital: "Bismarck"
+      largest_city: "Fargo"
+      population: 779094
+      area: 70698
+    - name: "Ohio"  
+      slug: "ohio"
+      abbreviation: "OH"
+      capital: "Columbus"
+      largest_city: "Columbus"
+      population: 11799448
+      area: 44826
+    - name: "Oklahoma"
+      slug: "oklahoma"
+      abbreviation: "OK"
+      capital: "Oklahoma City"
+      largest_city: "Oklahoma City"
+      population: 3963516
+      area: 69899
+    - name: "Oregon"
+      slug: "oregon"
+      abbreviation: "OR"
+      capital: "Salem"
+      largest_city: "Portland"
+      population: 4237256
+      area: 98378
+    - name: "Pennsylvania"
+      slug: "pennsylvania"
+      abbreviation: "PA"
+      capital: "Harrisburg"
+      largest_city: "Philadelphia"
+      population: 13002700
+      area: 46054
+    - name: "Rhode Island"
+      slug: "rhode-island"
+      abbreviation: "RI"
+      capital: "Providence"
+      largest_city: "Providence"
+      population: 1097379
+      area: 1214
+    - name: "South Carolina"
+      slug: "south-carolina"
+      abbreviation: "SC"
+      capital: "Columbia"
+      largest_city: "Charleston"
+      population: 5118425
+      area: 32020
+    - name: "South Dakota"
+      slug: "south-dakota"
+      abbreviation: "SD"
+      capital: "Pierre"
+      largest_city: "Sioux Falls"
+      population: 886667
+      area: 77116
+    - name: "Tennessee"
+      slug: "tennessee"
+      abbreviation: "TN"
+      capital: "Nashville"
+      largest_city: "Memphis"
+      population: 6910840
+      area: 42144
+    - name: "Texas"
+      slug: "texas"
+      abbreviation: "TX"
+      capital: "Austin"
+      largest_city: "Houston"
+      population: 29145505
+      area: 268596
+    - name: "Utah"
+      slug: "utah"
+      abbreviation: "UT"
+      capital: "Salt Lake City"
+      largest_city: "Salt Lake City"
+      population: 3271616
+      area: 84899
+    - name: "Vermont"
+      slug: "vermont"
+      abbreviation: "VT"
+      capital: "Montpelier"
+      largest_city: "Burlington"
+      population: 643077
+      area: 9616
+    - name: "Virginia"
+      slug: "virginia"
+      abbreviation: "VA"
+      capital: "Richmond"
+      largest_city: "Virginia Beach"
+      population: 8631393
+      area: 42775
+    - name: "Washington"
+      slug: "washington"
+      abbreviation: "WA"
+      capital: "Olympia"
+      largest_city: "Seattle"
+      population: 7693612
+      area: 71298
+    - name: "West Virginia"
+      slug: "west-virginia"
+      abbreviation: "WV"
+      capital: "Charleston"
+      largest_city: "Charleston"
+      population: 1793716
+      area: 6243
+    - name: "Wisconsin" 
+      slug: "wisconsin"
+      abbreviation: "WI"
+      capital: "Madison"
+      largest_city: "Milwaukee"
+      population: 5893718
+      area: 65498
+    - name: "Wyoming"
+      slug: "wyoming"
+      abbreviation: "WY"
+      capital: "Cheyenne"
+      largest_city: "Cheyenne"
+      population: 576851
+      area: 97813

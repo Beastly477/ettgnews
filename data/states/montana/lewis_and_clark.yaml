@@ -1,0 +1,25 @@
+resources:
+    - title: Helena Independent Record
+      type: News
+      url:  https://helenair.com
+      category: News
+      address: 
+      phone:
+    - title: Daily Montanan
+      type: News
+      url:  https://www.dailymontanan.com
+      category: News
+      address: 
+      phone:
+    - title: Montana Free Press
+      type: News
+      url:  https://www.montanafreepress.org
+      category: News
+      address: 
+      phone:
+    - title: Montana Standard
+      type: News
+      url:  https://mtstandard.com
+      category: News
+      address: 
+      phone:

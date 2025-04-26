@@ -1,0 +1,21 @@
+content/
+├── states/
+│   ├── _index.md        # "States" landing page (optional, intro page)
+│   ├── montana/
+│   │   ├── _index.md    # Montana main page (State front matter + description)
+│   │   ├── counties/
+│   │   │   ├── yellowstone/
+│   │   │   │   └── _index.md  # Yellowstone County info
+|   |   |   |   |   ├── billings/
+|   |   |   |   |   |   └── _index.md # Billings City Info
+│   │   │   ├── missoula/
+│   │   │   │   └── _index.md  # Missoula County info
+│   │   │   └── ... (more counties)
+│   ├── idaho/
+│   │   ├── _index.md
+│   │   ├── counties/
+│   │   │   ├── ada/
+│   │   │   │   └── _index.md
+│   │   │   └── canyon/
+│   │   │       └── _index.md
+│   └── ... (more states)

@@ -5,3 +5,13 @@
 .grid {
   display: grid;
 }
+.grow {
+  flex-grow: 1;
+}
+.hover\:underline {
+  &:hover {
+    @media (hover: hover) {
+      text-decoration-line: underline;
+    }
+  }
+}

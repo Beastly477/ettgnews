@@ -6,7 +6,36 @@
     <description>Recent content in Ear to the Ground News on Ear to the Ground News</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 26 Apr 2025 16:38:36 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Helena</title>
+      <link>http://localhost:1313/states/montana/counties/lewis-and-clark/helena/</link>
+      <pubDate>Sat, 26 Apr 2025 16:38:36 -0600</pubDate>
+      <guid>http://localhost:1313/states/montana/counties/lewis-and-clark/helena/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bozeman</title>
+      <link>http://localhost:1313/states/montana/counties/gallatin/bozeman/</link>
+      <pubDate>Sat, 26 Apr 2025 16:37:07 -0600</pubDate>
+      <guid>http://localhost:1313/states/montana/counties/gallatin/bozeman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gallatin</title>
+      <link>http://localhost:1313/states/montana/counties/gallatin/</link>
+      <pubDate>Sat, 26 Apr 2025 16:36:37 -0600</pubDate>
+      <guid>http://localhost:1313/states/montana/counties/gallatin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lewis and Clark</title>
+      <link>http://localhost:1313/states/montana/counties/lewis-and-clark/</link>
+      <pubDate>Sat, 26 Apr 2025 16:13:36 -0600</pubDate>
+      <guid>http://localhost:1313/states/montana/counties/lewis-and-clark/</guid>
+      <description></description>
+    </item>
     <item>
       <title></title>
       <link>http://localhost:1313/about/</link>

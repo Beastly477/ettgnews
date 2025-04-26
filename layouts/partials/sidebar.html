@@ -1,0 +1,30 @@
+<h2 class="text-xl font-bold mb-4">States:</h2>
+<ul class="space-y-2">
+  {{ range where site.RegularPages "Section" "states" }}
+    {{ if eq .Kind "section" }}
+      <!-- State link -->
+      <li>
+        <a class="text-blue-600 hover:underline" href="{{ .RelPermalink }}">
+          {{ .Title }}
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+{{ if eq .Section "states" }}
+  {{ if .IsSection }}
+    <h3 class="text-lg font-semibold mt-6">Counties in {{ .Title }}:</h3>
+    <ul class="mt-2 space-y-1">
+      {{ range .Sections }}
+        {{ if eq .File.Dir (printf "states/%s/counties/" .Parent.File.BaseFileName) }}
+          <li>
+            <a class="text-green-600 hover:underline" href="{{ .RelPermalink }}">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
