@@ -1,0 +1,11 @@
+April 26th, 2025
+- Hammered out several structural blueprints (yaml in general, content dir, data dir, workflow)
+- Gained better understanding of project structure (directories and how they work) and Hugo templating
+- Added base data yaml and some filler input that still needs validation
+- Began building content structure
+
+Moving forward
+- Build out content and data skeletons
+- Work on templating language to finish building layouts structure
+- Build overall site map to keep track of individual pages' needs
+- Decide what JavaScript needs/requirements we have for each page

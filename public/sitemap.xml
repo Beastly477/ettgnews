@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-26T16:38:36-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/states/montana/counties/lewis-and-clark/helena/</loc>
+    <lastmod>2025-04-26T16:38:36-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/states/montana/</loc>
+    <lastmod>2025-04-26T16:38:36-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/states/</loc>
+    <lastmod>2025-04-26T16:38:36-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/states/montana/counties/gallatin/bozeman/</loc>
+    <lastmod>2025-04-26T16:37:07-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/states/montana/counties/gallatin/</loc>
+    <lastmod>2025-04-26T16:36:37-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/states/montana/counties/lewis-and-clark/</loc>
+    <lastmod>2025-04-26T16:13:36-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-  </url><url>
     <loc>http://localhost:1313/states/idaho/</loc>
-  </url><url>
-    <loc>http://localhost:1313/states/montana/</loc>
-  </url><url>
-    <loc>http://localhost:1313/states/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

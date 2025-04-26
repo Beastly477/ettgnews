@@ -1,0 +1,28 @@
+🏛️ State Front Matter Starter (e.g., montana/_index.md)
+---
+title: "" # State name (e.g., Montana)
+description: "" # Short 1–2 sentence description
+capital: "" # Capital city (e.g., Helena)
+population: 0 # Full number, no commas (e.g., 1084225)
+area_sq_mi: 0 # Area in square miles (e.g., 147040)
+tags:
+  - "" # e.g., northern, rural, scenic
+images:
+  header: "" # Path to a nice header/banner image
+created_at: "{{ now.Format "2006-01-02" }}" # auto today if you want
+---
+
+🏞️ County Front Matter Starter (e.g., yellowstone/_index.md)
+---
+title: "" # County name (e.g., Yellowstone County)
+state: "" # Parent state (e.g., Montana)
+description: "" # A paragraph or two about the county
+county_seat: "" # Main city (e.g., Billings)
+population: 0 # Population (e.g., 165123)
+area_sq_mi: 0 # Area in square miles
+tags:
+  - "" # e.g., major_city, growing
+images:
+  header: "" # Path to a header image for the county
+created_at: "{{ now.Format "2006-01-02" }}" # today’s date
+---

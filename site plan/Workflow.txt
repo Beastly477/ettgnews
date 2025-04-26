@@ -1,0 +1,13 @@
+[RESOURCE] (example: "Billings Public Library")
+     ↓
+[COUNTY YAML] (example: data/states/montana/yellowstone.yaml)
+     ↓
+[STATE YAML] (optional summary, like data/states/montana/_index.yaml)
+     ↓
+[SITE STRUCTURE] (content/states/montana/yellowstone/_index.md)
+     ↓
+[TEMPLATES] (layouts/_default/list.html or layouts/states/single.html)
+     ↓
+[HUGO BUILDS HTML PAGES]
+     ↓
+[FRONTEND] (Styled with Tailwind, searchable, clickable, etc.)
