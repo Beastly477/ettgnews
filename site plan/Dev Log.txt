@@ -9,3 +9,10 @@ Moving forward
 - Work on templating language to finish building layouts structure
 - Build overall site map to keep track of individual pages' needs
 - Decide what JavaScript needs/requirements we have for each page
+
+
+April 27th, 2025
+- Added basic templating logic to layouts/_default/list.html to display only the states that have data/text in .md
+- Fooled around with some tailwindcss but couldn't get it working
+- Deployed first rendition of site to GitHub Pages (didn't work as intended but deployment did run abd ettgnews.com is live)
+- New branch dev branch on GitHub
