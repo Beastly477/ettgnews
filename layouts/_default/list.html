@@ -1,37 +1,15 @@
 {{ define "main" }}
 
-  {{/* ROOT: list states */}}
+  {{/* HOMEPAGE */}}
   {{ if eq .RelPermalink "/" }}
-  <h2>States</h2>
-  <ul>
-    {{ range where .Site.Pages "Section" "states" }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
-
-  {{/* STATE PAGE: list counties */}}
-  {{ else if eq .Section "states" }}
-    {{/* derive state slug */}}
-    {{ $state := "" }}
-    {{ if .Params.state }}
-      {{ $state = .Params.state }}
-    {{ else if .File }}
-      {{ $state = .File.BaseFileName }}
-    {{ end }}
-
-    {{ $data     := index .Site.Data $state }}
-    {{ $counties := index $data "counties" }}
-
-    <h2>Counties in {{ .Title }}</h2>
-    <ul>
-      {{ range $slug, $info := $counties }}
-        <li>
-          <a href="/states/{{ $state }}/counties/{{ $slug }}/">
-            {{ $info.label }}
-          </a>
-        </li>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {{ range where (where .Site.Pages "Section" "states") ".Content" "!=" "" }}
+        <a href="{{ .RelPermalink }}" class="block bg-white rounded-xl shadow hover:shadow-lg p-6 transition-all">
+          <h3 class="text-xl font-semibold text-blue-700">{{ .Title }}</h3>
+        </a>
+    </div>
       {{ end }}
-    </ul>
+
   {{ end }}
 {{ end }}
 
