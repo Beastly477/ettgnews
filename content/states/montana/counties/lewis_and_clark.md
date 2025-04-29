@@ -1,5 +1,6 @@
 ---
 title: "Lewis and Clark County"
-county: "lewis-and-clark"
+type: county
+county: lewis_and_clark
 ---
 

@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Helena</title>
-      <link>http://localhost:1313/states/montana/counties/lewis-and-clark/helena/</link>
+      <link>http://localhost:1313/states/montana/counties/lewis_and_clark/helena/</link>
       <pubDate>Sat, 26 Apr 2025 16:38:36 -0600</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/lewis-and-clark/helena/</guid>
+      <guid>http://localhost:1313/states/montana/counties/lewis_and_clark/helena/</guid>
       <description></description>
     </item>
     <item>
@@ -38,9 +38,16 @@
     </item>
     <item>
       <title>Lewis and Clark County</title>
-      <link>http://localhost:1313/states/montana/counties/lewis-and-clark/</link>
+      <link>http://localhost:1313/states/montana/counties/lewis_and_clark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/lewis-and-clark/</guid>
+      <guid>http://localhost:1313/states/montana/counties/lewis_and_clark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yellowstone County</title>
+      <link>http://localhost:1313/states/montana/counties/yellowstone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/states/montana/counties/yellowstone/</guid>
       <description></description>
     </item>
   </channel>

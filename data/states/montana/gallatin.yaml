@@ -1,0 +1,25 @@
+resources:
+    - title: Bozeman Daily Chronicle
+      type: News
+      url:  https://www.bozemandailychronicle.com
+      category: News
+      address: 
+      phone:
+    - title: Gallatin Valley News
+      type: News
+      url:  https://www.gallatinvalleynews.com
+      category: News
+      address: 
+      phone:
+    - title: KBZK
+      type: News
+      url:  https://www.kbzk.com
+      category: News
+      address: 
+      phone:
+    - title: KTVM
+      type: News
+      url:  https://www.ktvm.com
+      category: News
+      address: 
+      phone:

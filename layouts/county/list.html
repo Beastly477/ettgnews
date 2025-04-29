@@ -1,0 +1,27 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<h2>Resources</h2>
+
+<ul class="grid gap-4">
+  {{ $county := .Params.county }}
+  {{ if $county }}
+    {{ $data := index .Site.Data "states" "montana" $county }}
+    {{ if $data.resources }}
+      {{ range $data.resources }}
+        <li class="p-4 bg-white rounded shadow">
+          <h3 class="text-lg font-bold">{{ .title }}</h3>
+          <p><strong>Type:</strong> {{ .type }}</p>
+          <p><strong>Category:</strong> {{ .category }}</p>
+          <p><strong>Address:</strong> {{ .address | default "N/A" }}</p>
+          <p><strong>Phone:</strong> {{ .phone | default "N/A" }}</p>
+          <a href="{{ .url }}" class="text-blue-500 underline" target="_blank">Visit Website</a>
+        </li>
+      {{ end }}
+    {{ else }}
+      <p>No resources available for this county.</p>
+    {{ end }}
+  {{ else }}
+    <p>No county data available.</p>
+  {{ end }}
+</ul>
+{{ end }}

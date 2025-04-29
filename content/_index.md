@@ -1,6 +1,6 @@
 ---
 title: "Ear to the Ground News"
-description: "A one‑stop hub for local news, events, and alerts."
+description: "A one‑stop hub for local news and events."
 ---
 
 >Track every local source that matters—newspapers, government sites, Facebook pages, and more.  
