@@ -1,6 +1,5 @@
 ---
 title: "Gallatin County"
-type: county
-county: gallatin
---- 
-
+county: "gallatin"
+type: "county"
+---

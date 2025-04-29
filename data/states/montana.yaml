@@ -1,7 +1,7 @@
 counties:
   - name: Lewis and Clark County
     slug: lewis_and_clark
-  - name: Gallatin
+  - name: Gallatin County
     slug: gallatin
   - name: Ravalli County
     slug: ravalli
@@ -75,7 +75,7 @@ counties:
     slug: daniels
   - name: Dawson County
     slug: dawson
-  - name: Deer Lodge County
+  - name: Deer Lodge
     slug: deer_lodge
   - name: Fergus County
     slug: fergus

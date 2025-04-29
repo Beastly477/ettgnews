@@ -1,6 +1,5 @@
 ---
 title: "Yellowstone County"
-type: county
-county: yellowstone
+county: "yellowstone"
+type: "county"
 ---
-

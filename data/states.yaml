@@ -230,7 +230,7 @@ states:
       largest_city: "Charlotte"
       population: 10439388
       area: 53819
-    - name: "North Dakota"  
+    - name: "North Dakota"
       slug: "north-dakota"
       abbreviation: "ND"
       capital: "Bismarck"
@@ -335,7 +335,7 @@ states:
       largest_city: "Charleston"
       population: 1793716
       area: 6243
-    - name: "Wisconsin" 
+    - name: "Wisconsin"
       slug: "wisconsin"
       abbreviation: "WI"
       capital: "Madison"
