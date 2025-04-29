@@ -16,3 +16,9 @@ April 27th, 2025
 - Fooled around with some tailwindcss but couldn't get it working
 - Deployed first rendition of site to GitHub Pages (didn't work as intended but deployment did run abd ettgnews.com is live)
 - New branch dev branch on GitHub
+
+
+April 29th, 2025
+- Added county markdown files to Montana via python script
+- Merged Dev into main for experience
+- Fooled around with some tailwindcss but couldn't get it working (again)
