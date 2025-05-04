@@ -1,0 +1,10 @@
+resources:
+  - title: Beaverhead County News
+    url: https://www.beaverheadcountynews.com
+    type: newspaper
+  - title: Dillon Tribune
+    url: https://www.dillontribune.com
+    type: newspaper
+  - title: Montana Standard - Beaverhead
+    url: https://mtstandard.com/news/local/beaverhead
+    type: online

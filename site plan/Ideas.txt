@@ -1,0 +1,2 @@
+- Filterable data by category, county, city even
+- Search bar with quick load times

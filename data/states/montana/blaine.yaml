@@ -1,0 +1,22 @@
+resources:
+  - title: Blaine County Journal
+    url: https://www.blainecountyjournal.com
+    type: newspaper
+  - title: Phillips County News
+    url: https://www.phillipscountynews.com
+    type: newspaper
+  - title: Havre Daily News - Blaine
+    url: https://www.havredailynews.com/section/blaine_county
+    type: online
+  - title: Havre Daily News
+    url: https://www.havredailynews.com
+    type: newspaper
+  - title: Blaine County Government
+    url: https://blainecounty-mt.gov
+    type: government
+  - title: Blaine County
+    url: https://www.blainecounty.us
+    type: government
+  - title: Blaine County Chamber of Commerce
+    url: https://www.blainecountychamber.com
+    type: chamber

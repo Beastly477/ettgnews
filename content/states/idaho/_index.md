@@ -1,5 +1,5 @@
 ---
 title: "Idaho"
-layout: "state"
+layout: "states"
 state: "idaho"
 ---

@@ -1,0 +1,19 @@
+resources:
+  - title: Big Horn County News
+    url: https://www.bighorncountynews.com
+    type: newspaper
+  - title: Crow News
+    url: https://www.crownews.net
+    type: newspaper
+  - title: Billings Gazette - Big Horn
+    url: https://billingsgazette.com/news/local/big-horn
+    type: online
+  - title: Billings Gazette
+    url: https://billingsgazette.com
+    type: newspaper
+  - title: Crow Tribe
+    url: https://www.crowtribe.org
+    type: government
+  - title: Crow Nation
+    url: https://www.crownation.com
+    type: government

@@ -1,0 +1,19 @@
+resources:
+  - title: Broadwater County News
+    url: https://www.broadwatercountynews.com
+    type: newspaper
+  - title: Townsend Star
+    url: https://www.townsendstar.com
+    type: newspaper
+  - title: Helena Independent Record - Broadwater
+    url: https://helenair.com/news/local/broadwater
+    type: online
+  - title: Helena Independent Record
+    url: https://helenair.com
+    type: newspaper
+  - title: Townsend Chamber of Commerce
+    url: https://www.townsendchamber.org
+    type: chamber
+  - title: Broadwater County
+    url: https://broadwatercounty.mt.gov
+    type: government

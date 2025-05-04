@@ -1,0 +1,27 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<h2>Counties</h2>
+
+<a href="javascript:history.back()">Back</a>
+
+<ul class="grid gap-4">
+  {{ $state := .Params.state }}
+  {{ if $state }}
+    {{ $data := index .Site.Data "states" $state "counties" }}
+    {{ if $data }}
+      {{ $sorted := sort $data "name" }}
+      {{ range $sorted }}
+        <li class="">
+          <a href="/states/{{ $state }}/counties/{{ .slug }}/">
+            {{ .name }}
+          </a>
+        </li>
+      {{ end }}
+    {{ else }}
+      <p>No county data available for this state.</p>
+    {{ end }}
+  {{ else }}
+    <p>No state data available.</p>
+  {{ end }}
+</ul>
+{{ end }}

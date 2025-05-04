@@ -1,6 +1,6 @@
 ---
 title: "Montana"
-layout: "state"
+layout: "states"
 state: "montana"
 ---
 

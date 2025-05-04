@@ -14,7 +14,7 @@ Moving forward
 April 27th, 2025
 - Added basic templating logic to layouts/_default/list.html to display only the states that have data/text in .md
 - Fooled around with some tailwindcss but couldn't get it working
-- Deployed first rendition of site to GitHub Pages (didn't work as intended but deployment did run abd ettgnews.com is live)
+- Deployed first rendition of site to GitHub Pages (didn't work as intended but deployment did run and ettgnews.com is live)
 - New branch dev branch on GitHub
 
 
@@ -22,3 +22,12 @@ April 29th, 2025
 - Added county markdown files to Montana via python script
 - Merged Dev into main for experience
 - Fooled around with some tailwindcss but couldn't get it working (again)
+
+
+May 3rd, 2025
+- Fixed states not displaying counties (layout template logic issue - 'state' /= 'states' in code)
+- Fooled around with some tailwindcss but couldn't get it working (again)
+- Added more generic data to show example county info
+- Modified python script to generate all counties in MT for the data folder
+- Created new python script for counties in data folder
+- Moved both python files into new python folder
