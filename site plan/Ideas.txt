@@ -1,2 +1,4 @@
 - Filterable data by category, county, city even
 - Search bar with quick load times
+- Have each card display the title of each county and then have each description list towns in 
+that county.

@@ -155,6 +155,9 @@
 .w-px {
   width: 1px;
 }
+.max-w-\[12rem\] {
+  max-width: 12rem;
+}
 .max-w-full {
   max-width: 100%;
 }
@@ -663,6 +666,18 @@
   &:hover {
     @media (hover: hover) {
       text-decoration-line: underline;
+    }
+  }
+}
+.rtl\:rotate-180 {
+  &:where(:dir(rtl), [dir="rtl"], [dir="rtl"] *) {
+    rotate: 180deg;
+  }
+}
+.rtl\:space-x-reverse {
+  &:where(:dir(rtl), [dir="rtl"], [dir="rtl"] *) {
+    :where(& > :not(:last-child)) {
+      --tw-space-x-reverse: 1;
     }
   }
 }
@@ -8634,11 +8649,6 @@
   inherits: false;
   initial-value: 0;
 }
-@property --tw-space-x-reverse {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0;
-}
 @property --tw-divide-x-reverse {
   syntax: "*";
   inherits: false;
@@ -8930,6 +8940,11 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-space-x-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -8994,8 +9009,8 @@
       --tw-backdrop-sepia: initial;
       --tw-duration: initial;
       --tw-ease: initial;
-      --tw-space-y-reverse: 0;
       --tw-space-x-reverse: 0;
+      --tw-space-y-reverse: 0;
       --tw-divide-x-reverse: 0;
       --tw-divide-y-reverse: 0;
       --tw-font-weight: initial;
