@@ -1,113 +1,113 @@
 counties:
-  - name: Lewis and Clark County
+  - name: Lewis and Clark 
     slug: lewis_and_clark
-  - name: Gallatin County
+  - name: Gallatin 
     slug: gallatin
-  - name: Ravalli County
+  - name: Ravalli 
     slug: ravalli
-  - name: Missoula County
+  - name: Missoula 
     slug: missoula
-  - name: Flathead County
+  - name: Flathead 
     slug: flathead
-  - name: Yellowstone County
+  - name: Yellowstone 
     slug: yellowstone
-  - name: Cascade County
+  - name: Cascade 
     slug: cascade
-  - name: Silver Bow County
+  - name: Silver Bow 
     slug: silver_bow
-  - name: Lincoln County
+  - name: Lincoln 
     slug: lincoln
-  - name: Lake County
+  - name: Lake 
     slug: lake
-  - name: Teton County
+  - name: Teton 
     slug: teton
-  - name: Pondera County
+  - name: Pondera 
     slug: pondera
-  - name: Sanders County
+  - name: Sanders 
     slug: sanders
-  - name: Mineral County
+  - name: Mineral 
     slug: mineral
-  - name: Madison County
+  - name: Madison 
     slug: madison
-  - name: Jefferson County
+  - name: Jefferson 
     slug: jefferson
-  - name: Park County
+  - name: Park 
     slug: park
-  - name: Sweet Grass County
+  - name: Sweet Grass 
     slug: sweet_grass
-  - name: Carbon County
+  - name: Carbon 
     slug: carbon
-  - name: Stillwater County
+  - name: Stillwater 
     slug: stillwater
-  - name: Golden Valley County
+  - name: Golden Valley 
     slug: golden_valley
-  - name: Wheatland County
+  - name: Wheatland 
     slug: wheatland
-  - name: Musselshell County
+  - name: Musselshell 
     slug: musselshell
-  - name: Petroleum County
+  - name: Petroleum 
     slug: petroleum
-  - name: Garfield County
+  - name: Garfield 
     slug: garfield
-  - name: Rosebud County
+  - name: Rosebud 
     slug: rosebud
-  - name: Treasure County
+  - name: Treasure 
     slug: treasure
-  - name: Custer County
+  - name: Custer 
     slug: custer
-  - name: Powder River County
+  - name: Powder River 
     slug: powder_river
-  - name: Fallon County
+  - name: Fallon 
     slug: fallon
-  - name: Carter County
+  - name: Carter 
     slug: carter
-  - name: Big Horn County
+  - name: Big Horn 
     slug: big_horn
-  - name: Beaverhead County
+  - name: Beaverhead 
     slug: beaverhead
-  - name: Blaine County
+  - name: Blaine 
     slug: blaine
-  - name: Broadwater County
+  - name: Broadwater 
     slug: broadwater
-  - name: Chouteau County
+  - name: Chouteau 
     slug: chouteau
-  - name: Daniels County
+  - name: Daniels 
     slug: daniels
-  - name: Dawson County
+  - name: Dawson 
     slug: dawson
   - name: Deer Lodge
     slug: deer_lodge
-  - name: Fergus County
+  - name: Fergus 
     slug: fergus
-  - name: Glacier County
+  - name: Glacier 
     slug: glacier
-  - name: Granite County
+  - name: Granite 
     slug: granite
-  - name: Hill County
+  - name: Hill 
     slug: hill
-  - name: Judith Basin County
+  - name: Judith Basin 
     slug: judith_basin
-  - name: Liberty County
+  - name: Liberty 
     slug: liberty
-  - name: McCone County
+  - name: McCone 
     slug: mccone
-  - name: Meagher County
+  - name: Meagher 
     slug: meagher
-  - name: Phillips County
+  - name: Phillips 
     slug: phillips
-  - name: Powell County
+  - name: Powell 
     slug: powell
-  - name: Prairie County
+  - name: Prairie 
     slug: prairie
-  - name: Richland County
+  - name: Richland 
     slug: richland
-  - name: Roosevelt County
+  - name: Roosevelt 
     slug: roosevelt
-  - name: Sheridan County
+  - name: Sheridan 
     slug: sheridan
-  - name: Toole County
+  - name: Toole 
     slug: toole
-  - name: Valley County
+  - name: Valley 
     slug: valley
-  - name: Wibaux County
+  - name: Wibaux 
     slug: wibaux

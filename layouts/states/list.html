@@ -1,27 +1,28 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<h2>Counties</h2>
 
-<ul class="grid gap-4">
-  {{ $state := .Params.state }}
-  {{ if $state }}
-    {{ $data := index .Site.Data "states" $state "counties" }}
-    {{ if $data }}
-      {{ $sorted := sort $data "name" }}
-      {{ range $sorted }}
-        <li class="">
-          <a href="/states/{{ $state }}/counties/{{ .slug }}/" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<div class="container mx-auto p-6">
+  <ul class="grid grid-cols-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+    {{ $state := .Params.state }}
+    {{ if $state }}
+      {{ $data := index .Site.Data "states" $state "counties" }}
+      {{ if $data }}
+        {{ $sorted := sort $data "name" }}
+        {{ range $sorted }}
+          <li class="">
+            <a href="/states/{{ $state }}/counties/{{ .slug }}/" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ .name }}</h5>
-            <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            </a>
-        </li>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ .name }}</h5>
+              <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              </a>
+          </li>
+        {{ end }}
+      {{ else }}
+        <p>No county data available for this state.</p>
       {{ end }}
     {{ else }}
-      <p>No county data available for this state.</p>
+      <p>No state data available.</p>
     {{ end }}
-  {{ else }}
-    <p>No state data available.</p>
+  </ul>
+</div>
+
   {{ end }}
-</ul>
-{{ end }}
