@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ear to the Ground News</title>
   <link rel="stylesheet" href="/css/app.css">
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
+  
   <div class="container mx-auto flex justify-between items-center p-3">
   <a href="/" class="text-3xl font-bold hover:text-gray-200 transition-colors">
     Ear to the Ground News
   </a>
 </div>
-  <nav class="flex" aria-label="Breadcrumb">
+  <nav class="flex m-4" aria-label="Breadcrumb">
   <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
     
 
@@ -19,6 +21,9 @@
     
     
       
+        
+        
+          
         
       
       
@@ -63,74 +68,122 @@
   </ol>
 </nav>
   
-  
-<h1>Broadwater County</h1>
-<h2>Resources</h2>
 
-<ul class="grid gap-4">
   
-  
+  <main class="flex-grow">
     
-    
-      
-        <li class="p-4 bg-white rounded shadow">
-          <h3 class="text-lg font-bold">Broadwater County News</h3>
-          <p><strong>Type:</strong> newspaper</p>
-          <p><strong>Category:</strong> </p>
-          <p><strong>Address:</strong> N/A</p>
-          <p><strong>Phone:</strong> N/A</p>
-          <a href="https://www.broadwatercountynews.com" class="text-blue-500 underline" target="_blank">Visit Website</a>
-        </li>
-      
-        <li class="p-4 bg-white rounded shadow">
-          <h3 class="text-lg font-bold">Townsend Star</h3>
-          <p><strong>Type:</strong> newspaper</p>
-          <p><strong>Category:</strong> </p>
-          <p><strong>Address:</strong> N/A</p>
-          <p><strong>Phone:</strong> N/A</p>
-          <a href="https://www.townsendstar.com" class="text-blue-500 underline" target="_blank">Visit Website</a>
-        </li>
-      
-        <li class="p-4 bg-white rounded shadow">
-          <h3 class="text-lg font-bold">Helena Independent Record - Broadwater</h3>
-          <p><strong>Type:</strong> online</p>
-          <p><strong>Category:</strong> </p>
-          <p><strong>Address:</strong> N/A</p>
-          <p><strong>Phone:</strong> N/A</p>
-          <a href="https://helenair.com/news/local/broadwater" class="text-blue-500 underline" target="_blank">Visit Website</a>
-        </li>
-      
-        <li class="p-4 bg-white rounded shadow">
-          <h3 class="text-lg font-bold">Helena Independent Record</h3>
-          <p><strong>Type:</strong> newspaper</p>
-          <p><strong>Category:</strong> </p>
-          <p><strong>Address:</strong> N/A</p>
-          <p><strong>Phone:</strong> N/A</p>
-          <a href="https://helenair.com" class="text-blue-500 underline" target="_blank">Visit Website</a>
-        </li>
-      
-        <li class="p-4 bg-white rounded shadow">
-          <h3 class="text-lg font-bold">Townsend Chamber of Commerce</h3>
-          <p><strong>Type:</strong> chamber</p>
-          <p><strong>Category:</strong> </p>
-          <p><strong>Address:</strong> N/A</p>
-          <p><strong>Phone:</strong> N/A</p>
-          <a href="https://www.townsendchamber.org" class="text-blue-500 underline" target="_blank">Visit Website</a>
-        </li>
-      
-        <li class="p-4 bg-white rounded shadow">
-          <h3 class="text-lg font-bold">Broadwater County</h3>
-          <p><strong>Type:</strong> government</p>
-          <p><strong>Category:</strong> </p>
-          <p><strong>Address:</strong> N/A</p>
-          <p><strong>Phone:</strong> N/A</p>
-          <a href="https://broadwatercounty.mt.gov" class="text-blue-500 underline" target="_blank">Visit Website</a>
-        </li>
-      
-    
-  
-</ul>
+<h1 class="text-3xl font-bold text-gray-800 mb-6">Broadwater County</h1>
+<h2 class="text-xl font-semibold text-gray-600 mb-4">Resources</h2>
 
+<div class="container mx-auto grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+  
+  
+    
+    
+      
+        <div class="block max-w-sm p-6 bg-white border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 dark:bg-gray-800 dark:border-gray-700">
+          <div class="p-5">
+            <h3 class="mb-2 text-lg font-bold tracking-tight text-gray-800 dark:text-gray-100">Broadwater County News</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Type:</strong> newspaper</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Category:</strong> </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Address:</strong> N/A</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Phone:</strong> N/A</p>
+            <a href="https://www.broadwatercountynews.com" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300" target="_blank">
+              Visit Website
+              <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3H6a1 1 0 100 2h3v3a1 1 0 102 0v-3h3a1 1 0 100-2h-3V7z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      
+        <div class="block max-w-sm p-6 bg-white border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 dark:bg-gray-800 dark:border-gray-700">
+          <div class="p-5">
+            <h3 class="mb-2 text-lg font-bold tracking-tight text-gray-800 dark:text-gray-100">Townsend Star</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Type:</strong> newspaper</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Category:</strong> </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Address:</strong> N/A</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Phone:</strong> N/A</p>
+            <a href="https://www.townsendstar.com" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300" target="_blank">
+              Visit Website
+              <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3H6a1 1 0 100 2h3v3a1 1 0 102 0v-3h3a1 1 0 100-2h-3V7z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      
+        <div class="block max-w-sm p-6 bg-white border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 dark:bg-gray-800 dark:border-gray-700">
+          <div class="p-5">
+            <h3 class="mb-2 text-lg font-bold tracking-tight text-gray-800 dark:text-gray-100">Helena Independent Record - Broadwater</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Type:</strong> online</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Category:</strong> </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Address:</strong> N/A</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Phone:</strong> N/A</p>
+            <a href="https://helenair.com/news/local/broadwater" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300" target="_blank">
+              Visit Website
+              <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3H6a1 1 0 100 2h3v3a1 1 0 102 0v-3h3a1 1 0 100-2h-3V7z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      
+        <div class="block max-w-sm p-6 bg-white border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 dark:bg-gray-800 dark:border-gray-700">
+          <div class="p-5">
+            <h3 class="mb-2 text-lg font-bold tracking-tight text-gray-800 dark:text-gray-100">Helena Independent Record</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Type:</strong> newspaper</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Category:</strong> </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Address:</strong> N/A</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Phone:</strong> N/A</p>
+            <a href="https://helenair.com" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300" target="_blank">
+              Visit Website
+              <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3H6a1 1 0 100 2h3v3a1 1 0 102 0v-3h3a1 1 0 100-2h-3V7z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      
+        <div class="block max-w-sm p-6 bg-white border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 dark:bg-gray-800 dark:border-gray-700">
+          <div class="p-5">
+            <h3 class="mb-2 text-lg font-bold tracking-tight text-gray-800 dark:text-gray-100">Townsend Chamber of Commerce</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Type:</strong> chamber</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Category:</strong> </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Address:</strong> N/A</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Phone:</strong> N/A</p>
+            <a href="https://www.townsendchamber.org" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300" target="_blank">
+              Visit Website
+              <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3H6a1 1 0 100 2h3v3a1 1 0 102 0v-3h3a1 1 0 100-2h-3V7z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      
+        <div class="block max-w-sm p-6 bg-white border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 dark:bg-gray-800 dark:border-gray-700">
+          <div class="p-5">
+            <h3 class="mb-2 text-lg font-bold tracking-tight text-gray-800 dark:text-gray-100">Broadwater County</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Type:</strong> government</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Category:</strong> </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Address:</strong> N/A</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300"><strong>Phone:</strong> N/A</p>
+            <a href="https://broadwatercounty.mt.gov" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300" target="_blank">
+              Visit Website
+              <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3H6a1 1 0 100 2h3v3a1 1 0 102 0v-3h3a1 1 0 100-2h-3V7z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      
+    
+  
+</div>
+
+  </main>
+
+  
   
 
 <footer class="bg-white dark:bg-gray-900">

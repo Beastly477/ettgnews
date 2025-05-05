@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ear to the Ground News</title>
   <link rel="stylesheet" href="/css/app.css">
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
+  
   <div class="container mx-auto flex justify-between items-center p-3">
   <a href="/" class="text-3xl font-bold hover:text-gray-200 transition-colors">
     Ear to the Ground News
   </a>
 </div>
-  <nav class="flex" aria-label="Breadcrumb">
+  <nav class="flex m-4" aria-label="Breadcrumb">
   <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
     
 
@@ -19,6 +21,9 @@
     
     
       
+        
+        
+          
         
       
       
@@ -63,20 +68,26 @@
   </ol>
 </nav>
   
-  
-<h1>Flathead County</h1>
-<h2>Resources</h2>
 
-<ul class="grid gap-4">
   
-  
+  <main class="flex-grow">
     
-    
-      <p>No resources available for this county.</p>
-    
-  
-</ul>
+<h1 class="text-3xl font-bold text-gray-800 mb-6">Flathead County</h1>
+<h2 class="text-xl font-semibold text-gray-600 mb-4">Resources</h2>
 
+<div class="container mx-auto grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+  
+  
+    
+    
+      <p class="text-black-700 dark:text-black-300">No resources available for this county.</p>
+    
+  
+</div>
+
+  </main>
+
+  
   
 
 <footer class="bg-white dark:bg-gray-900">
