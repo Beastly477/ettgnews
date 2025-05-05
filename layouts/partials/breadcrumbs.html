@@ -6,7 +6,10 @@
     {{ $currentPage := . }}
     {{ with $currentPage }}
       {{ if and .Parent .Parent.Parent }}
-        {{ $breadcrumbs = $breadcrumbs | append .Parent.Parent }}
+        <!-- Check if the grandparent (e.g., "states") has content -->
+        {{ if gt (len .Parent.Parent.Pages) 0 }}
+          {{ $breadcrumbs = $breadcrumbs | append .Parent.Parent }}
+        {{ end }}
       {{ end }}
       {{ if .Parent }}
         {{ $breadcrumbs = $breadcrumbs | append .Parent }}

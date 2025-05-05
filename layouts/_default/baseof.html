@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>{{ site.Title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ear to the Ground News</title>
   <link rel="stylesheet" href="{{ "css/app.css" | relURL }}">
 </head>
-<body>
-  {{ partial "header" . }}
-  {{ block "main" . }}{{ end }}
-  {{ partial "footer" . }}
+<body class="flex flex-col min-h-screen">
+  <!-- Header -->
+  {{ partial "header.html" . }}
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <!-- Footer -->
+  {{ partial "footer.html" . }}
 </body>
 </html>
