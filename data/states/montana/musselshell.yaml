@@ -1,2 +1,7 @@
 name: Musselshell County
 slug: musselshell
+
+cities:
+  - Roundup
+  - Melstone
+  - Musselshell

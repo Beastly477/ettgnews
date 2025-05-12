@@ -1,3 +1,6 @@
+name: Carbon County
+slug: carbon
+
 resources:
   - title: Broadwater County News
     url: https://www.broadwatercountynews.com
@@ -20,3 +23,13 @@ resources:
   - title: Broadwater County Government
     url: https://broadwatercounty-mt.gov
     type: government
+
+cities:
+  - "Red Lodge"
+  - "Bridger"
+  - "Joliet"
+  - "Bearcreek"
+  - "Fromberg"
+  - "Belfry"
+  - "Roberts"
+  - "Silesia"

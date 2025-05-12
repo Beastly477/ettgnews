@@ -1,2 +1,7 @@
 name: Silver Bow County
 slug: silver_bow
+
+cities:
+  - Butte
+  - Walkerville
+  - Anaconda

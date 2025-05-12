@@ -1,2 +1,11 @@
 name: Lincoln County
 slug: lincoln
+
+cities:
+  - Eureka
+  - Libby
+  - Troy
+  - Rexford
+  - Fortine
+  - Trego
+  - Stryker

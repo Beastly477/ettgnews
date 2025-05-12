@@ -1,2 +1,14 @@
 name: Richland County
 slug: richland
+
+cities:
+  - Sidney
+  - Fairview
+  - Savage
+  - Lambert
+  - Crane
+  - Andes
+  - Enid
+  - Fox Lake
+  - Girard
+  - Sioux Pass

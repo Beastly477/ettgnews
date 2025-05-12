@@ -1,2 +1,5 @@
 name: Petroleum County
 slug: petroleum
+
+cities:
+  - Winnett

@@ -1,3 +1,6 @@
+name: Broadwater County
+slug: broadwater
+
 resources:
   - title: Broadwater County News
     url: https://www.broadwatercountynews.com
@@ -17,3 +20,9 @@ resources:
   - title: Broadwater County
     url: https://broadwatercounty.mt.gov
     type: government
+
+cities:
+  - "Townsend"
+  - "Radersburg"
+  - "Toston"
+  - "Canyon Ferry"

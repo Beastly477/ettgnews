@@ -1,2 +1,10 @@
 name: Yellowstone County
 slug: yellowstone
+
+cities:
+  - Billings
+  - Laurel
+  - Lockwood
+  - Shepherd
+  - Huntley
+  - Worden

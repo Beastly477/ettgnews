@@ -1,2 +1,10 @@
 name: Roosevelt County
 slug: roosevelt
+
+cities:
+  - Bainville
+  - Brockton
+  - Culbertson
+  - Froid
+  - Poplar
+  - Wolf Point

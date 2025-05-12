@@ -1,3 +1,6 @@
+name: Lewis and Clark County
+slug: lewis_and_clark
+
 resources:
     - title: Helena Independent Record
       type: News
@@ -23,3 +26,14 @@ resources:
       category: News
       address: 
       phone:
+
+      cities:
+        - Helena
+        - East Helena
+        - Augusta
+        - Lincoln
+        - Wolf Creek
+        - Craig
+        - Canyon Creek
+        - Marysville
+        - York

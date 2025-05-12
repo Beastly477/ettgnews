@@ -1,2 +1,17 @@
 name: Sheridan County
 slug: sheridan
+
+cities:
+  - Antelope
+  - Archer
+  - Comertown
+  - Dagmar
+  - Dooley
+  - Homestead
+  - Medicine Lake
+  - Outlook
+  - Plentywood
+  - Raymond
+  - Redstone
+  - Reserve
+  - Westby

@@ -1,2 +1,28 @@
 name: Daniels County
 slug: daniels
+
+esources:
+  - title: Daniels County Leader
+    url: https://www.danielsleader.com
+    type: newspaper
+  - title: Glasgow Courier - Daniels
+    url: https://www.glasgowcourier.com/section/daniels
+    type: online
+  - title: Billings Gazette - Daniels
+    url: https://billingsgazette.com/news/local/daniels
+    type: online
+  - title: Billings Gazette
+    url: https://billingsgazette.com
+    type: newspaper
+  - title: Daniels County Chamber of Commerce
+    url: https://www.danielscountychamber.org
+    type: chamber
+  - title: Daniels County Government
+    url: https://danielscountygov.com
+    type: government
+
+cities:
+  - Scobey
+  - Flaxville
+  - Peerless
+  - Whitetail

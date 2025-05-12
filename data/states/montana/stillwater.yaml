@@ -1,2 +1,11 @@
 name: Stillwater County
 slug: stillwater
+
+cities:
+  - Absarokee
+  - Columbus
+  - Fishtail
+  - Nye
+  - Park City
+  - Rapelje
+  - Reed Point

@@ -1,2 +1,8 @@
 name: McCone County
 slug: mccone
+
+cities:
+  - Brockway
+  - Circle
+  - Vida
+  - Weldon

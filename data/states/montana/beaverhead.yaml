@@ -1,3 +1,6 @@
+name: Beaverhead County
+slug: beaverhead
+
 resources:
   - title: Beaverhead County News
     url: https://www.beaverheadcountynews.com
@@ -8,3 +11,15 @@ resources:
   - title: Montana Standard - Beaverhead
     url: https://mtstandard.com/news/local/beaverhead
     type: online
+
+cities:
+  - Dillon
+  - Wisdom
+  - Wise River
+  - Lima
+  - Jackson
+  - Grant
+  - Glen
+  - Polaris
+  - Monida
+  - Dell

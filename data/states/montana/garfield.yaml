@@ -1,2 +1,8 @@
 name: Garfield County
 slug: garfield
+
+cities:
+  - Jordan
+  - Brusett
+  - Cohagen
+  - Sand Springs

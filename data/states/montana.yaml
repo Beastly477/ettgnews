@@ -1,113 +1,113 @@
 counties:
-  - name: Lewis and Clark 
-    slug: lewis_and_clark
-  - name: Gallatin 
-    slug: gallatin
-  - name: Ravalli 
-    slug: ravalli
-  - name: Missoula 
-    slug: missoula
-  - name: Flathead 
-    slug: flathead
-  - name: Yellowstone 
-    slug: yellowstone
-  - name: Cascade 
-    slug: cascade
-  - name: Silver Bow 
-    slug: silver_bow
-  - name: Lincoln 
-    slug: lincoln
-  - name: Lake 
-    slug: lake
-  - name: Teton 
-    slug: teton
-  - name: Pondera 
-    slug: pondera
-  - name: Sanders 
-    slug: sanders
-  - name: Mineral 
-    slug: mineral
-  - name: Madison 
-    slug: madison
-  - name: Jefferson 
-    slug: jefferson
-  - name: Park 
-    slug: park
-  - name: Sweet Grass 
-    slug: sweet_grass
-  - name: Carbon 
-    slug: carbon
-  - name: Stillwater 
-    slug: stillwater
-  - name: Golden Valley 
-    slug: golden_valley
-  - name: Wheatland 
-    slug: wheatland
-  - name: Musselshell 
-    slug: musselshell
-  - name: Petroleum 
-    slug: petroleum
-  - name: Garfield 
-    slug: garfield
-  - name: Rosebud 
-    slug: rosebud
-  - name: Treasure 
-    slug: treasure
-  - name: Custer 
-    slug: custer
-  - name: Powder River 
-    slug: powder_river
-  - name: Fallon 
-    slug: fallon
-  - name: Carter 
-    slug: carter
-  - name: Big Horn 
-    slug: big_horn
   - name: Beaverhead 
     slug: beaverhead
+  - name: Big Horn 
+    slug: big_horn
   - name: Blaine 
     slug: blaine
   - name: Broadwater 
     slug: broadwater
+  - name: Carbon 
+    slug: carbon
+  - name: Carter 
+    slug: carter
+  - name: Cascade 
+    slug: cascade
   - name: Chouteau 
     slug: chouteau
+  - name: Custer 
+    slug: custer
   - name: Daniels 
     slug: daniels
   - name: Dawson 
     slug: dawson
   - name: Deer Lodge
     slug: deer_lodge
+  - name: Fallon 
+    slug: fallon
   - name: Fergus 
     slug: fergus
+  - name: Flathead 
+    slug: flathead
+  - name: Gallatin 
+    slug: gallatin
+  - name: Garfield 
+    slug: garfield
   - name: Glacier 
     slug: glacier
+  - name: Golden Valley 
+    slug: golden_valley
   - name: Granite 
     slug: granite
   - name: Hill 
     slug: hill
+  - name: Jefferson 
+    slug: jefferson
   - name: Judith Basin 
     slug: judith_basin
+  - name: Lake 
+    slug: lake
+  - name: Lewis and Clark 
+    slug: lewis_and_clark
   - name: Liberty 
     slug: liberty
+  - name: Lincoln 
+    slug: lincoln
+  - name: Madison 
+    slug: madison
   - name: McCone 
     slug: mccone
   - name: Meagher 
     slug: meagher
+  - name: Mineral 
+    slug: mineral
+  - name: Missoula 
+    slug: missoula
+  - name: Musselshell 
+    slug: musselshell
+  - name: Park 
+    slug: park
+  - name: Petroleum 
+    slug: petroleum
   - name: Phillips 
     slug: phillips
+  - name: Pondera 
+    slug: pondera
+  - name: Powder River 
+    slug: powder_river
   - name: Powell 
     slug: powell
   - name: Prairie 
     slug: prairie
+  - name: Ravalli 
+    slug: ravalli
   - name: Richland 
     slug: richland
   - name: Roosevelt 
     slug: roosevelt
+  - name: Rosebud 
+    slug: rosebud
+  - name: Sanders 
+    slug: sanders
   - name: Sheridan 
     slug: sheridan
+  - name: Silver Bow 
+    slug: silver_bow
+  - name: Stillwater 
+    slug: stillwater
+  - name: Sweet Grass 
+    slug: sweet_grass
+  - name: Teton 
+    slug: teton
   - name: Toole 
     slug: toole
+  - name: Treasure 
+    slug: treasure
   - name: Valley 
     slug: valley
+  - name: Wheatland 
+    slug: wheatland
   - name: Wibaux 
     slug: wibaux
+  - name: Yellowstone 
+    slug: yellowstone

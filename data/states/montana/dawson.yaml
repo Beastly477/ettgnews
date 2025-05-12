@@ -1,2 +1,30 @@
 name: Dawson County
 slug: dawson
+
+resources:
+  - title: Dawson County News
+    url: https://www.dawsoncountynews.com
+    type: newspaper
+  - title: Glendive Ranger-Review
+    url: https://www.glendiverangerreview.com
+    type: newspaper
+  - title: Billings Gazette - Dawson
+    url: https://billingsgazette.com/news/local/dawson
+    type: online
+  - title: Billings Gazette
+    url: https://billingsgazette.com
+    type: newspaper
+  - title: Dawson County Chamber of Commerce
+    url: https://www.dawsoncountychamber.org
+    type: chamber
+  - title: Dawson County Government
+    url: https://dawsoncountygov.com
+    type: government
+
+cities:
+  - Glendive
+  - Richey
+  - West Glendive
+  - Bloomfield
+  - Lindsay
+  - Intake

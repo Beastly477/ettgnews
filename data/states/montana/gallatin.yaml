@@ -1,2 +1,12 @@
 name: Gallatin County
 slug: gallatin
+
+
+cities:
+  - Belgrade
+  - Big Sky
+  - Bozeman
+  - Gallatin Gateway
+  - Manhattan
+  - Three Forks
+  - West Yellowstone

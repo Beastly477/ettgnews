@@ -1,2 +1,13 @@
 name: Jefferson County
 slug: jefferson
+
+cities:
+  - Boulder
+  - Clancy
+  - Whitehall
+  - Montana City
+  - Jefferson City
+  - Basin
+  - Cardwell
+  - Corbin
+  - Elk Park

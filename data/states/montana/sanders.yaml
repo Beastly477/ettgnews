@@ -1,2 +1,12 @@
 name: Sanders County
 slug: sanders
+
+cities:
+  - Plains
+  - Thompson Falls
+  - Trout Creek
+  - Hot Springs
+  - Noxon
+  - Heron
+  - Dixon
+  - Paradise

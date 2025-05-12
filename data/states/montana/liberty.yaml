@@ -1,2 +1,8 @@
 name: Liberty County
 slug: liberty
+
+cities:
+  - Chester
+  - Joplin
+  - Lothair
+  - Whitlash

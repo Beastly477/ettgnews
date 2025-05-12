@@ -1,2 +1,32 @@
 name: Carter County
 slug: carter
+
+resources:
+  - title: Carter County News
+    url: https://www.cartercountynews.com
+    type: newspaper
+  - title: Ekalaka Eagle
+    url: https://www.ekalakaeagle.com
+    type: newspaper
+  - title: Billings Gazette - Carter
+    url: https://billingsgazette.com/news/local/carter
+    type: online
+  - title: Billings Gazette
+    url: https://billingsgazette.com
+    type: newspaper
+  - title: Carter County Chamber of Commerce
+    url: https://www.cartercountychamber.org
+    type: chamber
+  - title: Carter County Government
+    url: https://cartercountygov.com
+    type: government
+
+
+cities:
+  - "Ekalaka"
+  - "Alzada"
+  - "Mill Iron"
+  - "Biddle"
+  - "Chalk Buttes"
+  - "Piniele"
+  - "Sykes"

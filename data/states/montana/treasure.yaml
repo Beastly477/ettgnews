@@ -1,2 +1,7 @@
 name: Treasure County
 slug: treasure
+
+cities:
+  - Hysham
+  - Myers
+  - Sanders

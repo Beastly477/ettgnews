@@ -1,2 +1,12 @@
 name: Mineral County
 slug: mineral
+
+cities:
+  - Alberton
+  - De Borgia
+  - Haugan
+  - Saltese
+  - St. Regis
+  - Superior
+  - Tarkio
+  - Lozeau

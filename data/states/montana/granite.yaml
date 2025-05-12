@@ -1,2 +1,10 @@
 name: Granite County
 slug: granite
+
+cities:
+  - Drummond
+  - Philipsburg
+  - Hall
+  - Maxville
+  - Rumsey
+  - Bearmouth

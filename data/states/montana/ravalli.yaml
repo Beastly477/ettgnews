@@ -1,2 +1,11 @@
 name: Ravalli County
 slug: ravalli
+
+cities:
+  - Hamilton
+  - Stevensville
+  - Darby
+  - Victor
+  - Corvallis
+  - Florence
+  - Pinesdale

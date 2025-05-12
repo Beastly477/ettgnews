@@ -1,2 +1,10 @@
 name: Judith Basin County
 slug: judith_basin
+
+cities:
+  - Geyser
+  - Hobson
+  - Moccasin
+  - Raynesford
+  - Stanford
+  - Utica

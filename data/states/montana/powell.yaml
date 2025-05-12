@@ -1,2 +1,10 @@
 name: Powell County
 slug: powell
+
+cities:
+  - Deer Lodge
+  - Garrison
+  - Avon
+  - Elliston
+  - Gold Creek
+  - Helmville

@@ -1,3 +1,6 @@
+name: Blaine County
+slug: blaine
+
 resources:
   - title: Blaine County Journal
     url: https://www.blainecountyjournal.com
@@ -20,3 +23,16 @@ resources:
   - title: Blaine County Chamber of Commerce
     url: https://www.blainecountychamber.com
     type: chamber
+
+cities:
+  - "Chinook"
+  - "Harlem"
+  - "Fort Belknap Agency"
+  - "Hays"
+  - "Lloyd"
+  - "Zurich"
+  - "Turner"
+  - "Hogeland"
+  - "Cleveland"
+  - "Savoy"
+  - "Zortman"

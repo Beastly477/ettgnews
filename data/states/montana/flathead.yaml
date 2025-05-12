@@ -1,2 +1,18 @@
 name: Flathead County
 slug: flathead
+
+cities:
+  - Kalispell
+  - Whitefish
+  - Columbia Falls
+  - Bigfork
+  - Lakeside
+  - Somers
+  - Evergreen
+  - Hungry Horse
+  - Kila
+  - Marion
+  - Martin City
+  - West Glacier
+  - Coram
+  - Polebridge

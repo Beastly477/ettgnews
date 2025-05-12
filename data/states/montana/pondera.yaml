@@ -1,2 +1,10 @@
 name: Pondera County
 slug: pondera
+
+cities:
+  - Conrad
+  - Valier
+  - Brady
+  - Dupuyer
+  - Ledger
+  - Heart Butte

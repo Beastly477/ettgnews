@@ -1,2 +1,9 @@
 name: Powder River County
 slug: powder_river
+
+cities:
+  - Broadus
+  - Biddle
+  - Sonnette
+  - Olive
+  - Moorhead

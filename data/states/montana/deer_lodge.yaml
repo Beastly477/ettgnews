@@ -1,2 +1,10 @@
 name: Deer Lodge
 slug: deer_lodge
+
+cities:
+  - Anaconda
+  - Deer Lodge
+  - Garrison
+  - Gold Creek
+  - Avon
+  - Elliston

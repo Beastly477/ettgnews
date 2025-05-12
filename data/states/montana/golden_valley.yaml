@@ -1,2 +1,6 @@
 name: Golden Valley County
 slug: golden_valley
+
+cities:
+  - Lavina
+  - Ryegate

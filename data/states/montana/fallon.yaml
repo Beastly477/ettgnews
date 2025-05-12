@@ -1,2 +1,7 @@
 name: Fallon County
 slug: fallon
+
+cities:
+  - Baker
+  - Plevna
+  - Willard
