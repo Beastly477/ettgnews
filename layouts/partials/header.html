@@ -3,5 +3,7 @@
     {{ .Site.Title }}
   </a>
 </div>
-  {{ partial "breadcrumbs.html" . }}
+  {{ if not .IsHome }}
+  {{ partial "breadcrumbs.html" . }} 
+  {{ end }}
   {{ .Content }}
