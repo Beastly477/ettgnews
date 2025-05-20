@@ -27,13 +27,13 @@ resources:
       address: 
       phone:
 
-      cities:
-        - Helena
-        - East Helena
-        - Augusta
-        - Lincoln
-        - Wolf Creek
-        - Craig
-        - Canyon Creek
-        - Marysville
-        - York
+cities:
+- Helena
+- East Helena
+- Augusta
+- Lincoln
+- Wolf Creek
+- Craig
+- Canyon Creek
+- Marysville
+- York
