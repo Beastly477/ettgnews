@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: beastly477/ettgnews
+  branch: main
+  site_domain: ettgnews.com
+  base_url: https://api.github.com
+  auth_scope: repo
+  client_id: Ov23liyrYENIHCZn5f3B
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "states"
+    label: "States"
+    folder: "content/states"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "county-data"
+    label: "County Data"
+    folder: "data/states/montana"
+    create: true
+    slug: "{{slug}}"
+    extension: "yaml"
+    format: "yaml"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Cities", name: "cities", widget: "list", required: false }
+      - { label: "Resources", name: "resources", widget: "list", fields: [
+          { label: "Title", name: "title", widget: "string" },
+          { label: "Type", name: "type", widget: "string" },
+          { label: "URL", name: "url", widget: "string", required: false },
+          { label: "Address", name: "address", widget: "string", required: false },
+          { label: "Phone", name: "phone", widget: "string", required: false }
+        ] }
