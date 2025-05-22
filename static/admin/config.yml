@@ -2,9 +2,7 @@ backend:
   name: git-gateway
   branch: main
   site_domain: ettgnews.com
-  base_url: https://api.github.com
-  auth_scope: repo
-  client_id: Ov23liyrYENIHCZn5f3B
+  
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
