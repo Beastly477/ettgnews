@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: beastly477/ettgnews
+  name: git-gateway
   branch: main
   site_domain: ettgnews.com
   base_url: https://api.github.com
