@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: main
-  site_domain: ettgnews.com
   
 
 media_folder: "static/uploads"
