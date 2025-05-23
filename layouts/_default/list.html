@@ -1,5 +1,8 @@
 {{ define "main" }}
 
-  {{ partial "state-card.html" . }}
+  <section class="prose mx-auto p-6">
+    {{ .Content }}
+    {{ partial "state-card.html" . }}
+  </section>
 
 {{ end }}

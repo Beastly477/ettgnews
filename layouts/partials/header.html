@@ -1,9 +1,8 @@
-<div class="container mx-auto flex justify-between items-center p-3">
+<div class="container mx-auto flex items-center py-3 px-4">
   <a href="/" class="text-3xl font-bold hover:text-gray-200 transition-colors">
     {{ .Site.Title }}
   </a>
 </div>
-  {{ if not .IsHome }}
+{{ if not .IsHome }}
   {{ partial "breadcrumbs.html" . }} 
-  {{ end }}
-  {{ .Content }}
+{{ end }}
