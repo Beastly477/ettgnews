@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:css": "tailwindcss -i ./assets/css/app.css -o ./static/css/app.css --watch",
-    "build:css": "tailwindcss -i ./assets/css/app.css -o ./static/css/app.css --minify"
+    "build:css": "tailwindcss -i ./assets/css/app.css -o ./static/css/app.css --minify",
+    "build": "hugo && pagefind --site public"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "@tailwindcss/postcss": "^4.1.5",
     "autoprefixer": "^10.4.21",
     "flowbite": "^3.1.2",
+    "pagefind": "^1.3.0",
     "postcss": "^8.5.3",
     "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.0",

@@ -2,139 +2,133 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ettgnews.com/</loc>
     <lastmod>2025-04-26T16:38:36-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/lewis_and_clark/helena/</loc>
+    <loc>https://ettgnews.com/states/montana/</loc>
     <lastmod>2025-04-26T16:38:36-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/states/montana/</loc>
+    <loc>https://ettgnews.com/states/</loc>
     <lastmod>2025-04-26T16:38:36-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/states/</loc>
-    <lastmod>2025-04-26T16:38:36-06:00</lastmod>
+    <loc>https://ettgnews.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/gallatin/bozeman/</loc>
-    <lastmod>2025-04-26T16:37:07-06:00</lastmod>
+    <loc>https://ettgnews.com/states/montana/counties/beaverhead/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/big_horn/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/beaverhead/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/blaine/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/big_horn/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/broadwater/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/blaine/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/carbon/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/broadwater/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/carter/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/carbon/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/cascade/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/carter/</loc>
+    <loc>https://ettgnews.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/cascade/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/chouteau/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/custer/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/chouteau/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/daniels/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/custer/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/dawson/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/daniels/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/deer_lodge/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/dawson/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/fallon/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/deer_lodge/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/fergus/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/fallon/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/flathead/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/fergus/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/gallatin/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/flathead/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/garfield/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/gallatin/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/glacier/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/garfield/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/golden_valley/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/glacier/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/granite/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/golden_valley/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/hill/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/granite/</loc>
+    <loc>https://ettgnews.com/states/idaho/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/hill/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/jefferson/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/idaho/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/judith_basin/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/jefferson/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/lake/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/judith_basin/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/lewis_and_clark/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/lake/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/liberty/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/lewis_and_clark/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/lincoln/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/liberty/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/madison/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/lincoln/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/mccone/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/madison/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/meagher/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/mccone/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/mineral/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/meagher/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/missoula/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/mineral/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/musselshell/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/missoula/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/park/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/musselshell/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/petroleum/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/park/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/phillips/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/petroleum/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/pondera/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/phillips/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/powder_river/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/pondera/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/powell/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/powder_river/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/prairie/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/powell/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/ravalli/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/prairie/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/richland/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/ravalli/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/roosevelt/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/richland/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/rosebud/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/roosevelt/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/sanders/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/rosebud/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/sheridan/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/sanders/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/silver_bow/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/sheridan/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/stillwater/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/silver_bow/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/sweet_grass/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/stillwater/</loc>
+    <loc>https://ettgnews.com/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/sweet_grass/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/teton/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/toole/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/teton/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/treasure/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/toole/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/valley/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/treasure/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/wheatland/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/valley/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/wibaux/</loc>
   </url><url>
-    <loc>http://localhost:1313/states/montana/counties/wheatland/</loc>
-  </url><url>
-    <loc>http://localhost:1313/states/montana/counties/wibaux/</loc>
-  </url><url>
-    <loc>http://localhost:1313/states/montana/counties/yellowstone/</loc>
+    <loc>https://ettgnews.com/states/montana/counties/yellowstone/</loc>
   </url>
 </urlset>

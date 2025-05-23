@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ear to the Ground News</title>
   <link rel="stylesheet" href="/css/app.css">
 </head>
-<body class="flex flex-col min-h-screen bg-gray-300"></body>
+<body class="flex flex-col min-h-screen bg-gray-300">
+  <div class="bg-yellow-300 text-yellow-900 text-center py-2 px-4 font-semibold">
+  🚧 This site is under active development. Content is incomplete and for demonstration only. 🚧
+</div>
   
-  <div class="container mx-auto flex items-center py-3 px-4">
-  <a href="/" class="text-3xl font-bold hover:text-gray-200 transition-colors">
+  <div class="container mx-auto max-w-screen-lg flex items-center py-3 px-4">
+  <a href="/" class="text-3xl font-bold text-gray-900 hover:text-gray-500 transition-colors duration-200 ease-in-out">
     Ear to the Ground News
   </a>
 </div>
+<div id="search"></div>
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      showImages: false,
+      translations: {
+        placeholder: "Search Ear to the Ground News...",
+        clear_search: "Clear",
+        search_label: "Search",
+        zero_results: "No results found.",
+        search_suggestion: "Try a different search term."
+      }
+    });
+  });
+</script>
 
-  <div class="flex justify-left">
+  <div class="container mx-auto max-w-screen-lg">
   <nav class="flex m-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
       
@@ -64,14 +84,13 @@
 
 
   
-  <main class="flex-grow">
-    
-<section class="prose mx-auto p-6">
+  <main class="container mx-auto max-w-screen-lg flex-grow px-4">
+  
+<div class="mx-auto max-w-screen-lg px-4 py-6">
+  <section class="prose mx-auto mb-6">
     <p>Welcome to Montana! Below you&rsquo;ll find a list of counties available.</p>
 
   </section>
-
-<div class="w-full px-4 py-6">
   
   
     
@@ -203,7 +222,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beaverhead County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Dillon, Wisdom, Wise River, Lima, Jackson, Grant, Glen, Polaris, Monida, Dell
+                <span class="font-bold">Cities:</span> Dell, Dillon, Glen, Grant, Jackson, Lima, Monida, Polaris, Wisdom, Wise River
               </p>
             </a>
           </li>
@@ -217,7 +236,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Big Horn County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Hardin, Crow Agency, Lodge Grass, St. Xavier, Wyola, Busby, Fort Smith, Pryor, Custer, Decker
+                <span class="font-bold">Cities:</span> Busby, Crow Agency, Custer, Decker, Fort Smith, Hardin, Lodge Grass, Pryor, St. Xavier, Wyola
               </p>
             </a>
           </li>
@@ -231,7 +250,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blaine County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Chinook, Harlem, Fort Belknap Agency, Hays, Lloyd, Zurich, Turner, Hogeland, Cleveland, Savoy, Zortman
+                <span class="font-bold">Cities:</span> Chinook, Cleveland, Fort Belknap Agency, Harlem, Hays, Hogeland, Lloyd, Savoy, Turner, Zortman, Zurich
               </p>
             </a>
           </li>
@@ -245,7 +264,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Broadwater County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Townsend, Radersburg, Toston, Canyon Ferry
+                <span class="font-bold">Cities:</span> Canyon Ferry, Radersburg, Toston, Townsend
               </p>
             </a>
           </li>
@@ -259,7 +278,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Carbon County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Red Lodge, Bridger, Joliet, Bearcreek, Fromberg, Belfry, Roberts, Silesia
+                <span class="font-bold">Cities:</span> Bearcreek, Belfry, Bridger, Fromberg, Joliet, Red Lodge, Roberts, Silesia
               </p>
             </a>
           </li>
@@ -273,7 +292,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Carter County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Ekalaka, Alzada, Mill Iron, Biddle, Chalk Buttes, Piniele, Sykes
+                <span class="font-bold">Cities:</span> Alzada, Biddle, Chalk Buttes, Ekalaka, Mill Iron, Piniele, Sykes
               </p>
             </a>
           </li>
@@ -287,7 +306,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cascade County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Great Falls, Belt, Cascade, Neihart, Monarch, Sun River, Simms, Fort Shaw, Ulm, Sand Coulee, Stockett, Vaughn, Hardy
+                <span class="font-bold">Cities:</span> Belt, Cascade, Fort Shaw, Great Falls, Hardy, Monarch, Neihart, Sand Coulee, Simms, Stockett, Sun River, Ulm, Vaughn
               </p>
             </a>
           </li>
@@ -301,7 +320,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Chouteau County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Fort Benton, Big Sandy, Geraldine, Highwood, Carter, Loma, Shonkin
+                <span class="font-bold">Cities:</span> Big Sandy, Carter, Fort Benton, Geraldine, Highwood, Loma, Shonkin
               </p>
             </a>
           </li>
@@ -315,7 +334,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Custer County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Miles City, Ismay, Kinsey, Volborg, Angela, Olive, Cartersville
+                <span class="font-bold">Cities:</span> Angela, Cartersville, Ismay, Kinsey, Miles City, Olive, Volborg
               </p>
             </a>
           </li>
@@ -329,7 +348,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Daniels County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Scobey, Flaxville, Peerless, Whitetail
+                <span class="font-bold">Cities:</span> Flaxville, Peerless, Scobey, Whitetail
               </p>
             </a>
           </li>
@@ -343,7 +362,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Dawson County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Glendive, Richey, West Glendive, Bloomfield, Lindsay, Intake
+                <span class="font-bold">Cities:</span> Bloomfield, Glendive, Intake, Lindsay, Richey, West Glendive
               </p>
             </a>
           </li>
@@ -357,7 +376,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Deer Lodge</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Anaconda, Deer Lodge, Garrison, Gold Creek, Avon, Elliston
+                <span class="font-bold">Cities:</span> Anaconda, Avon, Deer Lodge, Elliston, Garrison, Gold Creek
               </p>
             </a>
           </li>
@@ -385,7 +404,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Fergus County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Denton, Grass Range, Lewistown, Moore, Winifred, Roy, Forest Grove, Hilger, Christina, Brooks
+                <span class="font-bold">Cities:</span> Brooks, Christina, Denton, Forest Grove, Grass Range, Hilger, Lewistown, Moore, Roy, Winifred
               </p>
             </a>
           </li>
@@ -399,7 +418,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Flathead County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Kalispell, Whitefish, Columbia Falls, Bigfork, Lakeside, Somers, Evergreen, Hungry Horse, Kila, Marion, Martin City, West Glacier, Coram, Polebridge
+                <span class="font-bold">Cities:</span> Bigfork, Columbia Falls, Coram, Evergreen, Hungry Horse, Kalispell, Kila, Lakeside, Marion, Martin City, Polebridge, Somers, West Glacier, Whitefish
               </p>
             </a>
           </li>
@@ -427,7 +446,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Garfield County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Jordan, Brusett, Cohagen, Sand Springs
+                <span class="font-bold">Cities:</span> Brusett, Cohagen, Jordan, Sand Springs
               </p>
             </a>
           </li>
@@ -441,7 +460,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Glacier County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Browning, Cut Bank, East Glacier Park Village, Heart Butte, Starr School, Babb, Kiowa, Glacier Colony, Santa Rita
+                <span class="font-bold">Cities:</span> Babb, Browning, Cut Bank, East Glacier Park Village, Glacier Colony, Heart Butte, Kiowa, Santa Rita, Starr School
               </p>
             </a>
           </li>
@@ -469,7 +488,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Granite County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Drummond, Philipsburg, Hall, Maxville, Rumsey, Bearmouth
+                <span class="font-bold">Cities:</span> Bearmouth, Drummond, Hall, Maxville, Philipsburg, Rumsey
               </p>
             </a>
           </li>
@@ -483,7 +502,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hill County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Havre, Hingham, Kremlin, Gildford, Inverness, Rudyard, Box Elder, Lohman, Simpson
+                <span class="font-bold">Cities:</span> Box Elder, Gildford, Havre, Hingham, Inverness, Kremlin, Lohman, Rudyard, Simpson
               </p>
             </a>
           </li>
@@ -497,7 +516,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jefferson County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Boulder, Clancy, Whitehall, Montana City, Jefferson City, Basin, Cardwell, Corbin, Elk Park
+                <span class="font-bold">Cities:</span> Basin, Boulder, Cardwell, Clancy, Corbin, Elk Park, Jefferson City, Montana City, Whitehall
               </p>
             </a>
           </li>
@@ -539,7 +558,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lewis and Clark County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Helena, East Helena, Augusta, Lincoln, Wolf Creek, Craig, Canyon Creek, Marysville, York
+                <span class="font-bold">Cities:</span> Augusta, Canyon Creek, Craig, East Helena, Helena, Lincoln, Marysville, Wolf Creek, York
               </p>
             </a>
           </li>
@@ -567,7 +586,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lincoln County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Eureka, Libby, Troy, Rexford, Fortine, Trego, Stryker
+                <span class="font-bold">Cities:</span> Eureka, Fortine, Libby, Rexford, Stryker, Trego, Troy
               </p>
             </a>
           </li>
@@ -609,7 +628,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Meagher County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> White Sulphur Springs, Martinsdale, Ringling, Lennep
+                <span class="font-bold">Cities:</span> Lennep, Martinsdale, Ringling, White Sulphur Springs
               </p>
             </a>
           </li>
@@ -623,7 +642,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mineral County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Alberton, De Borgia, Haugan, Saltese, St. Regis, Superior, Tarkio, Lozeau
+                <span class="font-bold">Cities:</span> Alberton, De Borgia, Haugan, Lozeau, Saltese, St. Regis, Superior, Tarkio
               </p>
             </a>
           </li>
@@ -637,7 +656,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Missoula County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Missoula, Lolo, Frenchtown, Seeley Lake, Bonner-West Riverside, East Missoula, Clinton, Evaro, Turah, Huson, Condon
+                <span class="font-bold">Cities:</span> Bonner-West Riverside, Clinton, Condon, East Missoula, Evaro, Frenchtown, Huson, Lolo, Missoula, Seeley Lake, Turah
               </p>
             </a>
           </li>
@@ -651,7 +670,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Musselshell County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Roundup, Melstone, Musselshell
+                <span class="font-bold">Cities:</span> Melstone, Musselshell, Roundup
               </p>
             </a>
           </li>
@@ -707,7 +726,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pondera County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Conrad, Valier, Brady, Dupuyer, Ledger, Heart Butte
+                <span class="font-bold">Cities:</span> Brady, Conrad, Dupuyer, Heart Butte, Ledger, Valier
               </p>
             </a>
           </li>
@@ -721,7 +740,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Powder River County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Broadus, Biddle, Sonnette, Olive, Moorhead
+                <span class="font-bold">Cities:</span> Biddle, Broadus, Moorhead, Olive, Sonnette
               </p>
             </a>
           </li>
@@ -735,7 +754,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Powell County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Deer Lodge, Garrison, Avon, Elliston, Gold Creek, Helmville
+                <span class="font-bold">Cities:</span> Avon, Deer Lodge, Elliston, Garrison, Gold Creek, Helmville
               </p>
             </a>
           </li>
@@ -749,7 +768,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Prairie County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Terry, Fallon, Mildred, Zero
+                <span class="font-bold">Cities:</span> Fallon, Mildred, Terry, Zero
               </p>
             </a>
           </li>
@@ -763,7 +782,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ravalli County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Hamilton, Stevensville, Darby, Victor, Corvallis, Florence, Pinesdale
+                <span class="font-bold">Cities:</span> Corvallis, Darby, Florence, Hamilton, Pinesdale, Stevensville, Victor
               </p>
             </a>
           </li>
@@ -777,7 +796,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Richland County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Sidney, Fairview, Savage, Lambert, Crane, Andes, Enid, Fox Lake, Girard, Sioux Pass
+                <span class="font-bold">Cities:</span> Andes, Crane, Enid, Fairview, Fox Lake, Girard, Lambert, Savage, Sidney, Sioux Pass
               </p>
             </a>
           </li>
@@ -819,7 +838,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sanders County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Plains, Thompson Falls, Trout Creek, Hot Springs, Noxon, Heron, Dixon, Paradise
+                <span class="font-bold">Cities:</span> Dixon, Heron, Hot Springs, Noxon, Paradise, Plains, Thompson Falls, Trout Creek
               </p>
             </a>
           </li>
@@ -847,7 +866,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Silver Bow County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Butte, Walkerville, Anaconda
+                <span class="font-bold">Cities:</span> Anaconda, Butte, Walkerville
               </p>
             </a>
           </li>
@@ -889,7 +908,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Teton County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Choteau, Dutton, Fairfield, Power, Bynum, Pendroy, Collins
+                <span class="font-bold">Cities:</span> Bynum, Choteau, Collins, Dutton, Fairfield, Pendroy, Power
               </p>
             </a>
           </li>
@@ -903,7 +922,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Toole County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Shelby, Sunburst, Kevin, Sweet Grass, Galata, Devon, Ethridge
+                <span class="font-bold">Cities:</span> Devon, Ethridge, Galata, Kevin, Shelby, Sunburst, Sweet Grass
               </p>
             </a>
           </li>
@@ -931,7 +950,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Valley County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Glasgow, Fort Peck, Nashua, Hinsdale, Opheim, Frazer, Lustre, Richland
+                <span class="font-bold">Cities:</span> Fort Peck, Frazer, Glasgow, Hinsdale, Lustre, Nashua, Opheim, Richland
               </p>
             </a>
           </li>
@@ -959,7 +978,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Wibaux County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Wibaux, Carlyle, Yates
+                <span class="font-bold">Cities:</span> Carlyle, Wibaux, Yates
               </p>
             </a>
           </li>
@@ -973,7 +992,7 @@
                class="block w-full h-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Yellowstone County</h5>
               <p class="font-normal text-gray-700 dark:text-gray-400">
-                <span class="font-bold">Cities:</span> Billings, Laurel, Lockwood, Shepherd, Huntley, Worden
+                <span class="font-bold">Cities:</span> Billings, Huntley, Laurel, Lockwood, Shepherd, Worden
               </p>
             </a>
           </li>
@@ -983,7 +1002,6 @@
     
   
 </div>
-
 
   </main>
 
@@ -1096,5 +1114,7 @@
     </div>
   </div>
 </footer>
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 </body>
 </html>

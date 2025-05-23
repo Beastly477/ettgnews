@@ -6,16 +6,19 @@
   <title>Ear to the Ground News</title>
   <link rel="stylesheet" href="{{ "css/app.css" | resources.Get | resources.Minify | relURL }}">
 </head>
-<body class="flex flex-col min-h-screen bg-gray-300"></body>
+<body class="flex flex-col min-h-screen bg-gray-300">
+  {{ partial "dev-banner.html" . }}
   <!-- Header -->
   {{ partial "header.html" . }}
 
   <!-- Main Content -->
-  <main class="flex-grow">
-    {{ block "main" . }}{{ end }}
+  <main class="container mx-auto max-w-screen-lg flex-grow px-4">
+  {{ block "main" . }}{{ end }}
   </main>
 
   <!-- Footer -->
   {{ partial "footer.html" . }}
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 </body>
 </html>
