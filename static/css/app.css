@@ -149,6 +149,9 @@
 .min-h-screen {
   min-height: 100vh;
 }
+.w-1\/2 {
+  width: calc(1/2 * 100%);
+}
 .w-auto {
   width: auto;
 }
@@ -573,6 +576,9 @@
 .opacity-0 {
   opacity: 0%;
 }
+.opacity-10 {
+  opacity: 10%;
+}
 .opacity-20 {
   opacity: 20%;
 }
@@ -666,6 +672,10 @@
 .ease-linear {
   --tw-ease: linear;
   transition-timing-function: linear;
+}
+.select-none {
+  -webkit-user-select: none;
+  user-select: none;
 }
 .hover\:underline {
   &:hover {
