@@ -15,7 +15,10 @@
   <main class="container mx-auto max-w-screen-lg flex-grow px-4">
   {{ block "main" . }}{{ end }}
   </main>
-
+  
+  {{ partial "us-map.html" . }} 
+  {{ $js := resources.Get "js/site.js" | js.Build | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}"></script>
   <!-- Footer -->
   {{ partial "footer.html" . }}
   <script src="/pagefind/pagefind-ui.js"></script>

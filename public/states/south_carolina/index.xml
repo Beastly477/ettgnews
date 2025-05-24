@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>South Carolina on Ear to the Ground News</title>
+    <link>http://localhost:1313/states/south_carolina/</link>
+    <description>Recent content in South Carolina on Ear to the Ground News</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/states/south_carolina/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

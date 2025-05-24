@@ -3,3 +3,4 @@
 @tailwind utilities;
 
 @import 'flowbite';
+@import './_map.css';
