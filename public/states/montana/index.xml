@@ -2,402 +2,402 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Montana on Ear to the Ground News</title>
-    <link>http://localhost:1313/states/montana/</link>
+    <link>https://ettgnews.com/states/montana/</link>
     <description>Recent content in Montana on Ear to the Ground News</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/states/montana/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ettgnews.com/states/montana/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beaverhead County</title>
-      <link>http://localhost:1313/states/montana/counties/beaverhead/</link>
+      <link>https://ettgnews.com/states/montana/counties/beaverhead/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/beaverhead/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/beaverhead/</guid>
       <description></description>
     </item>
     <item>
       <title>Big Horn County</title>
-      <link>http://localhost:1313/states/montana/counties/big_horn/</link>
+      <link>https://ettgnews.com/states/montana/counties/big_horn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/big_horn/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/big_horn/</guid>
       <description></description>
     </item>
     <item>
       <title>Blaine County</title>
-      <link>http://localhost:1313/states/montana/counties/blaine/</link>
+      <link>https://ettgnews.com/states/montana/counties/blaine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/blaine/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/blaine/</guid>
       <description></description>
     </item>
     <item>
       <title>Broadwater County</title>
-      <link>http://localhost:1313/states/montana/counties/broadwater/</link>
+      <link>https://ettgnews.com/states/montana/counties/broadwater/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/broadwater/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/broadwater/</guid>
       <description></description>
     </item>
     <item>
       <title>Carbon County</title>
-      <link>http://localhost:1313/states/montana/counties/carbon/</link>
+      <link>https://ettgnews.com/states/montana/counties/carbon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/carbon/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/carbon/</guid>
       <description></description>
     </item>
     <item>
       <title>Carter County</title>
-      <link>http://localhost:1313/states/montana/counties/carter/</link>
+      <link>https://ettgnews.com/states/montana/counties/carter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/carter/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/carter/</guid>
       <description></description>
     </item>
     <item>
       <title>Cascade County</title>
-      <link>http://localhost:1313/states/montana/counties/cascade/</link>
+      <link>https://ettgnews.com/states/montana/counties/cascade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/cascade/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/cascade/</guid>
       <description></description>
     </item>
     <item>
       <title>Chouteau County</title>
-      <link>http://localhost:1313/states/montana/counties/chouteau/</link>
+      <link>https://ettgnews.com/states/montana/counties/chouteau/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/chouteau/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/chouteau/</guid>
       <description></description>
     </item>
     <item>
       <title>Custer County</title>
-      <link>http://localhost:1313/states/montana/counties/custer/</link>
+      <link>https://ettgnews.com/states/montana/counties/custer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/custer/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/custer/</guid>
       <description></description>
     </item>
     <item>
       <title>Daniels County</title>
-      <link>http://localhost:1313/states/montana/counties/daniels/</link>
+      <link>https://ettgnews.com/states/montana/counties/daniels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/daniels/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/daniels/</guid>
       <description></description>
     </item>
     <item>
       <title>Dawson County</title>
-      <link>http://localhost:1313/states/montana/counties/dawson/</link>
+      <link>https://ettgnews.com/states/montana/counties/dawson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/dawson/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/dawson/</guid>
       <description></description>
     </item>
     <item>
       <title>Deer Lodge</title>
-      <link>http://localhost:1313/states/montana/counties/deer_lodge/</link>
+      <link>https://ettgnews.com/states/montana/counties/deer_lodge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/deer_lodge/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/deer_lodge/</guid>
       <description></description>
     </item>
     <item>
       <title>Fallon County</title>
-      <link>http://localhost:1313/states/montana/counties/fallon/</link>
+      <link>https://ettgnews.com/states/montana/counties/fallon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/fallon/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/fallon/</guid>
       <description></description>
     </item>
     <item>
       <title>Fergus County</title>
-      <link>http://localhost:1313/states/montana/counties/fergus/</link>
+      <link>https://ettgnews.com/states/montana/counties/fergus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/fergus/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/fergus/</guid>
       <description></description>
     </item>
     <item>
       <title>Flathead County</title>
-      <link>http://localhost:1313/states/montana/counties/flathead/</link>
+      <link>https://ettgnews.com/states/montana/counties/flathead/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/flathead/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/flathead/</guid>
       <description></description>
     </item>
     <item>
       <title>Gallatin County</title>
-      <link>http://localhost:1313/states/montana/counties/gallatin/</link>
+      <link>https://ettgnews.com/states/montana/counties/gallatin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/gallatin/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/gallatin/</guid>
       <description></description>
     </item>
     <item>
       <title>Garfield County</title>
-      <link>http://localhost:1313/states/montana/counties/garfield/</link>
+      <link>https://ettgnews.com/states/montana/counties/garfield/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/garfield/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/garfield/</guid>
       <description></description>
     </item>
     <item>
       <title>Glacier County</title>
-      <link>http://localhost:1313/states/montana/counties/glacier/</link>
+      <link>https://ettgnews.com/states/montana/counties/glacier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/glacier/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/glacier/</guid>
       <description></description>
     </item>
     <item>
       <title>Golden Valley County</title>
-      <link>http://localhost:1313/states/montana/counties/golden_valley/</link>
+      <link>https://ettgnews.com/states/montana/counties/golden_valley/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/golden_valley/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/golden_valley/</guid>
       <description></description>
     </item>
     <item>
       <title>Granite County</title>
-      <link>http://localhost:1313/states/montana/counties/granite/</link>
+      <link>https://ettgnews.com/states/montana/counties/granite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/granite/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/granite/</guid>
       <description></description>
     </item>
     <item>
       <title>Hill County</title>
-      <link>http://localhost:1313/states/montana/counties/hill/</link>
+      <link>https://ettgnews.com/states/montana/counties/hill/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/hill/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/hill/</guid>
       <description></description>
     </item>
     <item>
       <title>Jefferson County</title>
-      <link>http://localhost:1313/states/montana/counties/jefferson/</link>
+      <link>https://ettgnews.com/states/montana/counties/jefferson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/jefferson/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/jefferson/</guid>
       <description></description>
     </item>
     <item>
       <title>Judith Basin County</title>
-      <link>http://localhost:1313/states/montana/counties/judith_basin/</link>
+      <link>https://ettgnews.com/states/montana/counties/judith_basin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/judith_basin/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/judith_basin/</guid>
       <description></description>
     </item>
     <item>
       <title>Lake County</title>
-      <link>http://localhost:1313/states/montana/counties/lake/</link>
+      <link>https://ettgnews.com/states/montana/counties/lake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/lake/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/lake/</guid>
       <description></description>
     </item>
     <item>
       <title>Lewis and Clark County</title>
-      <link>http://localhost:1313/states/montana/counties/lewis_and_clark/</link>
+      <link>https://ettgnews.com/states/montana/counties/lewis_and_clark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/lewis_and_clark/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/lewis_and_clark/</guid>
       <description></description>
     </item>
     <item>
       <title>Liberty County</title>
-      <link>http://localhost:1313/states/montana/counties/liberty/</link>
+      <link>https://ettgnews.com/states/montana/counties/liberty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/liberty/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/liberty/</guid>
       <description></description>
     </item>
     <item>
       <title>Lincoln County</title>
-      <link>http://localhost:1313/states/montana/counties/lincoln/</link>
+      <link>https://ettgnews.com/states/montana/counties/lincoln/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/lincoln/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/lincoln/</guid>
       <description></description>
     </item>
     <item>
       <title>Madison County</title>
-      <link>http://localhost:1313/states/montana/counties/madison/</link>
+      <link>https://ettgnews.com/states/montana/counties/madison/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/madison/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/madison/</guid>
       <description></description>
     </item>
     <item>
       <title>McCone County</title>
-      <link>http://localhost:1313/states/montana/counties/mccone/</link>
+      <link>https://ettgnews.com/states/montana/counties/mccone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/mccone/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/mccone/</guid>
       <description></description>
     </item>
     <item>
       <title>Meagher County</title>
-      <link>http://localhost:1313/states/montana/counties/meagher/</link>
+      <link>https://ettgnews.com/states/montana/counties/meagher/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/meagher/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/meagher/</guid>
       <description></description>
     </item>
     <item>
       <title>Mineral County</title>
-      <link>http://localhost:1313/states/montana/counties/mineral/</link>
+      <link>https://ettgnews.com/states/montana/counties/mineral/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/mineral/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/mineral/</guid>
       <description></description>
     </item>
     <item>
       <title>Missoula County</title>
-      <link>http://localhost:1313/states/montana/counties/missoula/</link>
+      <link>https://ettgnews.com/states/montana/counties/missoula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/missoula/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/missoula/</guid>
       <description></description>
     </item>
     <item>
       <title>Musselshell County</title>
-      <link>http://localhost:1313/states/montana/counties/musselshell/</link>
+      <link>https://ettgnews.com/states/montana/counties/musselshell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/musselshell/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/musselshell/</guid>
       <description></description>
     </item>
     <item>
       <title>Park County</title>
-      <link>http://localhost:1313/states/montana/counties/park/</link>
+      <link>https://ettgnews.com/states/montana/counties/park/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/park/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/park/</guid>
       <description></description>
     </item>
     <item>
       <title>Petroleum County</title>
-      <link>http://localhost:1313/states/montana/counties/petroleum/</link>
+      <link>https://ettgnews.com/states/montana/counties/petroleum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/petroleum/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/petroleum/</guid>
       <description></description>
     </item>
     <item>
       <title>Phillips County</title>
-      <link>http://localhost:1313/states/montana/counties/phillips/</link>
+      <link>https://ettgnews.com/states/montana/counties/phillips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/phillips/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/phillips/</guid>
       <description></description>
     </item>
     <item>
       <title>Pondera County</title>
-      <link>http://localhost:1313/states/montana/counties/pondera/</link>
+      <link>https://ettgnews.com/states/montana/counties/pondera/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/pondera/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/pondera/</guid>
       <description></description>
     </item>
     <item>
       <title>Powder River County</title>
-      <link>http://localhost:1313/states/montana/counties/powder_river/</link>
+      <link>https://ettgnews.com/states/montana/counties/powder_river/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/powder_river/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/powder_river/</guid>
       <description></description>
     </item>
     <item>
       <title>Powell County</title>
-      <link>http://localhost:1313/states/montana/counties/powell/</link>
+      <link>https://ettgnews.com/states/montana/counties/powell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/powell/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/powell/</guid>
       <description></description>
     </item>
     <item>
       <title>Prairie County</title>
-      <link>http://localhost:1313/states/montana/counties/prairie/</link>
+      <link>https://ettgnews.com/states/montana/counties/prairie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/prairie/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/prairie/</guid>
       <description></description>
     </item>
     <item>
       <title>Ravalli County</title>
-      <link>http://localhost:1313/states/montana/counties/ravalli/</link>
+      <link>https://ettgnews.com/states/montana/counties/ravalli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/ravalli/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/ravalli/</guid>
       <description></description>
     </item>
     <item>
       <title>Richland County</title>
-      <link>http://localhost:1313/states/montana/counties/richland/</link>
+      <link>https://ettgnews.com/states/montana/counties/richland/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/richland/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/richland/</guid>
       <description></description>
     </item>
     <item>
       <title>Roosevelt County</title>
-      <link>http://localhost:1313/states/montana/counties/roosevelt/</link>
+      <link>https://ettgnews.com/states/montana/counties/roosevelt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/roosevelt/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/roosevelt/</guid>
       <description></description>
     </item>
     <item>
       <title>Rosebud County</title>
-      <link>http://localhost:1313/states/montana/counties/rosebud/</link>
+      <link>https://ettgnews.com/states/montana/counties/rosebud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/rosebud/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/rosebud/</guid>
       <description></description>
     </item>
     <item>
       <title>Sanders County</title>
-      <link>http://localhost:1313/states/montana/counties/sanders/</link>
+      <link>https://ettgnews.com/states/montana/counties/sanders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/sanders/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/sanders/</guid>
       <description></description>
     </item>
     <item>
       <title>Sheridan County</title>
-      <link>http://localhost:1313/states/montana/counties/sheridan/</link>
+      <link>https://ettgnews.com/states/montana/counties/sheridan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/sheridan/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/sheridan/</guid>
       <description></description>
     </item>
     <item>
       <title>Silver Bow County</title>
-      <link>http://localhost:1313/states/montana/counties/silver_bow/</link>
+      <link>https://ettgnews.com/states/montana/counties/silver_bow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/silver_bow/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/silver_bow/</guid>
       <description></description>
     </item>
     <item>
       <title>Stillwater County</title>
-      <link>http://localhost:1313/states/montana/counties/stillwater/</link>
+      <link>https://ettgnews.com/states/montana/counties/stillwater/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/stillwater/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/stillwater/</guid>
       <description></description>
     </item>
     <item>
       <title>Sweet Grass County</title>
-      <link>http://localhost:1313/states/montana/counties/sweet_grass/</link>
+      <link>https://ettgnews.com/states/montana/counties/sweet_grass/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/sweet_grass/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/sweet_grass/</guid>
       <description></description>
     </item>
     <item>
       <title>Teton County</title>
-      <link>http://localhost:1313/states/montana/counties/teton/</link>
+      <link>https://ettgnews.com/states/montana/counties/teton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/teton/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/teton/</guid>
       <description></description>
     </item>
     <item>
       <title>Toole County</title>
-      <link>http://localhost:1313/states/montana/counties/toole/</link>
+      <link>https://ettgnews.com/states/montana/counties/toole/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/toole/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/toole/</guid>
       <description></description>
     </item>
     <item>
       <title>Treasure County</title>
-      <link>http://localhost:1313/states/montana/counties/treasure/</link>
+      <link>https://ettgnews.com/states/montana/counties/treasure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/treasure/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/treasure/</guid>
       <description></description>
     </item>
     <item>
       <title>Valley County</title>
-      <link>http://localhost:1313/states/montana/counties/valley/</link>
+      <link>https://ettgnews.com/states/montana/counties/valley/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/valley/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/valley/</guid>
       <description></description>
     </item>
     <item>
       <title>Wheatland County</title>
-      <link>http://localhost:1313/states/montana/counties/wheatland/</link>
+      <link>https://ettgnews.com/states/montana/counties/wheatland/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/wheatland/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/wheatland/</guid>
       <description></description>
     </item>
     <item>
       <title>Wibaux County</title>
-      <link>http://localhost:1313/states/montana/counties/wibaux/</link>
+      <link>https://ettgnews.com/states/montana/counties/wibaux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/wibaux/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/wibaux/</guid>
       <description></description>
     </item>
     <item>
       <title>Yellowstone County</title>
-      <link>http://localhost:1313/states/montana/counties/yellowstone/</link>
+      <link>https://ettgnews.com/states/montana/counties/yellowstone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/states/montana/counties/yellowstone/</guid>
+      <guid>https://ettgnews.com/states/montana/counties/yellowstone/</guid>
       <description></description>
     </item>
   </channel>
