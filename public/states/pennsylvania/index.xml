@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pennsylvania on Ear to the Ground News</title>
-    <link>https://ettgnews.com/states/pennsylvania/</link>
+    <link>http://localhost:1313/states/pennsylvania/</link>
     <description>Recent content in Pennsylvania on Ear to the Ground News</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ettgnews.com/states/pennsylvania/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/states/pennsylvania/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utah on Ear to the Ground News</title>
-    <link>https://ettgnews.com/states/utah/</link>
+    <link>http://localhost:1313/states/utah/</link>
     <description>Recent content in Utah on Ear to the Ground News</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ettgnews.com/states/utah/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/states/utah/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
