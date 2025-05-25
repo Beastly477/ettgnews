@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ear to the Ground News</title>
-  <link rel="stylesheet" href="{{ "css/app.css" | resources.Get | resources.Minify | relURL }}">
+  <link rel="stylesheet" href="/css/app.css">
 </head>
 <body class="flex flex-col min-h-screen bg-gray-300">
   {{ partial "dev-banner.html" . }}
   <!-- Header -->
-  {{ partial "header.html" . }}
+  {{ partial "nav.html" . }}
 
   <!-- Main Content -->
   <main class="container mx-auto max-w-screen-lg flex-grow px-4">

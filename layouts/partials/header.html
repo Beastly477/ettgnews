@@ -1,9 +1,0 @@
-<div class="container mx-auto max-w-screen-lg flex items-center py-3 px-4">
-  <a href="/" class="text-3xl font-bold text-gray-900 hover:text-gray-500 transition-colors duration-200 ease-in-out">
-    {{ .Site.Title }}
-  </a>
-</div>
-{{ partial "search.html" . }}
-{{ if not .IsHome }}
-  {{ partial "breadcrumbs.html" . }} 
-{{ end }}

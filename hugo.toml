@@ -5,3 +5,4 @@ title        = "Ear to the Ground News"
 
 [params]
   brand = "ETtG News"
+  mainCSS = "css/main.css"
